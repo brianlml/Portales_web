@@ -1,7 +1,7 @@
 <template>
-<div>
-  <h3>hola Figs</h3>
-</div>
+  <div>
+      <h1>hola desde la terrasa de 410rooftop</h1>
+  </div>
 </template>
 
 <script>

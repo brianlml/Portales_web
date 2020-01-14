@@ -1,10 +1,9 @@
 <template>
   <div>
-          
+
+
       <Navbar/>
       <Slide/>
-      <router-link to="/figs">Figs</router-link>
-
     <router-view/>
       <Footer/>
   </div>

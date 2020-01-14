@@ -1,7 +1,7 @@
 <template>
-<div>
-  <h3>hola Figs</h3>
-</div>
+  <div>
+      <h1>hola desde music</h1>
+  </div>
 </template>
 
 <script>

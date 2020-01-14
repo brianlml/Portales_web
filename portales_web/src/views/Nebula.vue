@@ -1,7 +1,7 @@
 <template>
-<div>
-  <h3>hola Figs</h3>
-</div>
+  <div>
+      <h1>hola desde bar nebula</h1>
+  </div>
 </template>
 
 <script>
