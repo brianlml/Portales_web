@@ -3,7 +3,6 @@
 
 
       <Navbar/>
-      <Slide/>
     <router-view/>
       <Footer/>
   </div>
@@ -11,11 +10,10 @@
 
 <script>
 import Navbar from './components/Navbar.vue'
-import Slide from './components/Slide.vue'
 import Footer from './components/Footer.vue'
 export default {
 components:{
-  Navbar, Slide, Footer
+  Navbar, Footer
 }
 }
 </script>
