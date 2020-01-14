@@ -1,10 +1,11 @@
 <template>
   <div>
-    <router-link to="/figs">Figs</router-link>
-
-    <router-view/>      
+          
       <Navbar/>
       <Slide/>
+      <router-link to="/figs">Figs</router-link>
+
+    <router-view/>
       <Footer/>
   </div>
 </template>
