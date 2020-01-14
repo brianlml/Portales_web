@@ -1,5 +1,6 @@
 <template>
   <div>
+
       <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-navbar-brand href="#">Pasaje Portales</b-navbar-brand>
@@ -12,6 +13,8 @@
     </b-collapse>
   </b-navbar>
 </div>
+
+
   </div>
 </template>
 
