@@ -1,5 +1,8 @@
 <template>
   <div>
+    <router-link to="/figs">Figs</router-link>
+
+    <router-view/>      
       <Navbar/>
       <Slide/>
       <Footer/>
