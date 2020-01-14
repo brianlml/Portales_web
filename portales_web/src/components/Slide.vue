@@ -32,6 +32,25 @@
         <router-link to="/mangos">Mangos</router-link>
         <router-link to="/music">Music</router-link>
     </div>
+    <div>
+  <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <b-nav-item to="/figs">Figs</b-nav-item>
+        <b-nav-item to="/nebula">Nebula</b-nav-item>
+        <b-nav-item to="/mandarina">Mandarina</b-nav-item>
+        <b-nav-item to="/rooftop">410 Roof Top</b-nav-item>
+        <b-nav-item to="/avalon">Avalon</b-nav-item>
+        <b-nav-item to="/mangos">Mangos</b-nav-item>
+        <b-nav-item to="/music">Music Hall</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
   </div>
 </template>
 
