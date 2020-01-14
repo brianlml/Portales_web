@@ -24,6 +24,13 @@
     </div>
     <div>
         <h3 class="text-center">DISTOTECAS</h3>
+        <router-link to="/figs">Figs</router-link>
+        <router-link to="/nebula">Nebula</router-link>
+        <router-link to="/mandarina">Mandarina</router-link>
+        <router-link to="/rooftop">410Roof Top</router-link>
+        <router-link to="/avalon">Avalon</router-link>
+        <router-link to="/mangos">Mangos</router-link>
+        <router-link to="/music">Music</router-link>
     </div>
   </div>
 </template>
