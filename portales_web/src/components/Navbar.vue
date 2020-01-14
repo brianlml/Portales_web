@@ -2,7 +2,7 @@
   <div>
 
       <div>
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar toggleable="lg" type="dark" variant="dark">
     <b-navbar-brand href="#">Pasaje Portales</b-navbar-brand>
     <h3></h3>
 
