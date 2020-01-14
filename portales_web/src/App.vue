@@ -1,6 +1,8 @@
 <template>
   <div>
-      
+    <router-link to="/figs">Figs</router-link>
+
+    <router-view/>      
   </div>
 </template>
 

@@ -5,6 +5,11 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/figs',
+    name: 'figs',
+    component: () => import(/*webpackChunkName:"about"*/'../views/Figs.vue')
+  },
  
 ]
 
