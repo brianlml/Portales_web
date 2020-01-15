@@ -1,29 +1,108 @@
 <template>
   <div>
-    <div>
-      <b-carousel
-        id="carousel-1"
-        v-model="slide"
-        :interval="4000"
-        controls
-        indicators
-        background="#ababab"
-        img-width="1024"
-        img-height="480"
-        style="text-shadow: 1px 1px 2px #333;"
-        @sliding-start="onSlideStart"
-        @sliding-end="onSlideEnd"
-      >
-        <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-          </p>
-        </b-carousel-slide>
-      </b-carousel>
+   <div>
+
+<!-- Header -->
+<header class="bg-dark text-center py-5 mb-4">
+  <div class="container">
+    <h1 class="font-weight-light text-white">DISCOTECAS</h1>
+  </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/figs.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Figs</h5>
+          <div class="card-text text-black-50">Acerca de Figs</div>
+        </div>
+      </div>
     </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/nebula.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Nebula</h5>
+          <div class="card-text text-black-50">Acerca de Nebula</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/mandarina.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Mandarina</h5>
+          <div class="card-text text-black-50">Acerca de Mandarina</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/410_roof_top.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">410 Rooftop</h5>
+          <div class="card-text text-black-50">Acerca de 410Rooftop</div>
+        </div>
+      </div>
+    </div>
+    <!--team 5-->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/avalon.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Avalon</h5>
+          <div class="card-text text-black-50">Acerca de Avalon</div>
+        </div>
+      </div>
+    </div>
+    <!--team 6-->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/mangos.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Mangos</h5>
+          <div class="card-text text-black-50">Acerca de Mangos</div>
+        </div>
+      </div>
+    </div>
+    <!--team 7-->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/music_hall.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Music Hall</h5>
+          <div class="card-text text-black-50">Acerca de Music Hall</div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+
+   </div>
     <div>
-        <h3 class="text-center">DISTOTECAS</h3>
+        
         <router-link to="/figs">Figs</router-link>
         <router-link to="/nebula">Nebula</router-link>
         <router-link to="/mandarina">Mandarina</router-link>
