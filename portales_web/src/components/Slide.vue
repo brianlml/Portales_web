@@ -13,7 +13,7 @@
   <div class="row">
     <!-- Team Member 1 -->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
+      <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/figs">
           <img src="../assets/figs.jpg" class="card-img-top" alt="...">
         </b-dropdown-item>
@@ -25,7 +25,7 @@
     </div>
     <!-- Team Member 2 -->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
+      <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/nebula">
           <img src="../assets/nebula.jpg" class="card-img-top" alt="...">
         </b-dropdown-item>
@@ -37,7 +37,7 @@
     </div>
     <!-- Team Member 3 -->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
+      <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/mandarina">
           <img src="../assets/mandarina.jpg" class="card-img-top" alt="...">
         </b-dropdown-item>
@@ -49,7 +49,7 @@
     </div>
     <!-- Team Member 4 -->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
+      <div class="card border-0 shadow" style="list-style:none">
          <b-dropdown-item to="rooftop">
            <img src="../assets/410_roof_top.jpg" class="card-img-top" alt="...">
          </b-dropdown-item>
@@ -61,7 +61,7 @@
     </div>
     <!--team 5-->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
+      <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/avalon">
           <img src="../assets/avalon.jpg" class="card-img-top" alt="...">
         </b-dropdown-item>
@@ -73,7 +73,7 @@
     </div>
     <!--team 6-->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
+      <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/mangos">
           <img src="../assets/mangos.jpg" class="card-img-top" alt="...">
         </b-dropdown-item>
@@ -85,7 +85,7 @@
     </div>
     <!--team 7-->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
+      <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/music">
           <img src="../assets/music_hall.png" class="card-img-top" alt="...">
         </b-dropdown-item>
@@ -113,35 +113,8 @@
 <!-- /.container -->
 
 
-   </div>
-    <div>
-        
-        <router-link to="/figs">Figs</router-link>
-        <router-link to="/nebula">Nebula</router-link>
-        <router-link to="/mandarina">Mandarina</router-link>
-        <router-link to="/rooftop">410Roof Top</router-link>
-        <router-link to="/avalon">Avalon</router-link>
-        <router-link to="/mangos">Mangos</router-link>
-        <router-link to="/music">Music</router-link>
-    </div>
-    <div>
-  <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
-
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item to="/figs">Figs</b-nav-item>
-        <b-nav-item to="/nebula">Nebula</b-nav-item>
-        <b-nav-item to="/mandarina">Mandarina</b-nav-item>
-        <b-nav-item to="/rooftop">410 Roof Top</b-nav-item>
-        <b-nav-item to="/avalon">Avalon</b-nav-item>
-        <b-nav-item to="/mangos">Mangos</b-nav-item>
-        <b-nav-item to="/music">Music Hall</b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+  
+  
 </div>
   </div>
 </template>
