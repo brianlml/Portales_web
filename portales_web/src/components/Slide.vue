@@ -19,19 +19,17 @@
         </b-dropdown-item>
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Figs</h5>
-          <div class="card-text text-black-50">Acerca de Figs</div>
         </div>
       </div>
     </div>
     <!-- Team Member 2 -->
     <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow" style="list-style:none">
+      <div class="card border-0 shadow" style="list-style:none;">
         <b-dropdown-item to="/nebula">
           <img src="../assets/nebula.jpg" class="card-img-top" alt="...">
         </b-dropdown-item>
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Nebula</h5>
-          <div class="card-text text-black-50">Acerca de Nebula</div>
         </div>
       </div>
     </div>
@@ -43,7 +41,6 @@
         </b-dropdown-item>
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Mandarina</h5>
-          <div class="card-text text-black-50">Acerca de Mandarina</div>
         </div>
       </div>
     </div>
@@ -55,11 +52,10 @@
          </b-dropdown-item>
         <div class="card-body text-center">
           <h5 class="card-title mb-0">410 Rooftop</h5>
-          <div class="card-text text-black-50">Acerca de 410Rooftop</div>
         </div>
       </div>
     </div>
-    <!--team 5-->
+    <!--Team Member 5-->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/avalon">
@@ -67,11 +63,10 @@
         </b-dropdown-item>
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Avalon</h5>
-          <div class="card-text text-black-50">Acerca de Avalon</div>
         </div>
       </div>
     </div>
-    <!--team 6-->
+    <!--Team Member 6-->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/mangos">
@@ -79,11 +74,10 @@
         </b-dropdown-item>
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Mangos</h5>
-          <div class="card-text text-black-50">Acerca de Mangos</div>
         </div>
       </div>
     </div>
-    <!--team 7-->
+    <!--Team Member 7-->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow" style="list-style:none">
         <b-dropdown-item to="/music">
@@ -91,7 +85,6 @@
         </b-dropdown-item>
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Music Hall</h5>
-          <div class="card-text text-black-50">Acerca de Music Hall</div>
         </div>
       </div>
     </div>
@@ -122,18 +115,13 @@
 <script>
 export default {
   data() {
-    return {
-      slide: 0,
-      sliding: null
-    };
+    return {   
+    }
   },
   methods: {
-    onSlideStart() {
-      this.sliding = true;
-    },
-    onSlideEnd() {
-      this.sliding = false;
-    }
   }
 };
 </script>
+<style>
+
+</style>
