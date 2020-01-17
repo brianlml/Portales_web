@@ -1,89 +1,103 @@
 <template>
   <div>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-      <b-nav-item to="/">PASAJE PORTALES</b-nav-item>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container ">
+        <b-nav-item  style="list-style:none;" to="/">PASAJE PORTALES</b-nav-item>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Discotecas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Ubicación</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto"></ul>
+        </div>
+      </div>
+    </nav>
 
-<header>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-4">First Slide</h3>
-          <p class="lead">This is a description for the first slide.</p>
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active"
+            style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">First Slide</h3>
+              <p class="lead">This is a description for the first slide.</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Second Slide</h3>
+              <p class="lead">This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Third Slide</h3>
+              <p class="lead">This is a description for the third slide.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-4">Second Slide</h3>
-          <p class="lead">This is a description for the second slide.</p>
-        </div>
-      </div>
-      <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-4">Third Slide</h3>
-          <p class="lead">This is a description for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-  </div>
-</header>
+      </div>
+    </header>
 
-<!-- Page Content -->
-<section class="py-5">
-  <div class="container">
-    <h1 class="font-weight-light">Nosotros Pasaje Portales</h1>
-    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor magni velit natus labore nesciunt praesentium.<a href="https://unsplash.com">Unsplash</a>!</p>
-  </div>
-</section>
-
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1 class="font-weight-light">Nosotros Pasaje Portales</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor magni velit natus labore nesciunt praesentium.
+          <a
+            href="https://unsplash.com"
+          >Unsplash</a>!
+        </p>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
@@ -96,5 +110,4 @@ export default {
   -o-background-size: cover;
   background-size: cover;
 }
-
 </style>
