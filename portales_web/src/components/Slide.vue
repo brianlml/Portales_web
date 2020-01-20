@@ -4,7 +4,7 @@
 <!-- Header -->
 <header class="bg-dark text-center py-5 mb-4">
   <div class="container">
-    <h1 class="font-weight-light text-white">DISCOTECAS</h1>
+    <h1 class="font-weight-light text-white">LUGARES PARA DISFRUTAR</h1>
   </div>
 </header>
 
