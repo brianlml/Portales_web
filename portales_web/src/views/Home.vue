@@ -24,17 +24,6 @@
         <b-carousel-slide caption="Third Slide" img-src="https://picsum.photos/1024/480/?image=22"></b-carousel-slide>
       </b-carousel>
     </div>
-    <section class="py-5">
-      <div class="container">
-        <h1 class="font-weight-light">Nosotros Pasaje Portales</h1>
-        <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor magni velit natus labore nesciunt praesentium.
-          <a
-            href="https://unsplash.com"
-          >Unsplash</a>!
-        </p>
-      </div>
-    </section>
     <Slide />
   </div>
 </template>
