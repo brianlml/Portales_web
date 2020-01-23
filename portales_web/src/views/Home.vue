@@ -1,70 +1,37 @@
 <template>
   <div>
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div
-            class="carousel-item active"
-            style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-4">First Slide</h3>
-              <p class="lead">This is a description for the first slide.</p>
-            </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div
-            class="carousel-item"
-            style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-4">Second Slide</h3>
-              <p class="lead">This is a description for the second slide.</p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div
-            class="carousel-item"
-            style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')"
-          >
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="display-4">Third Slide</h3>
-              <p class="lead">This is a description for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
+    <div>
+      <b-carousel
+        id="carousel-fade"
+        style="text-shadow: 0px 0px 2px #000"
+        controls
+        indicators
+        fade
+        img-width="1024"
+        img-height="480"
+      >
+        <b-carousel-slide
+          caption="First Slide"
+          img-src="https://picsum.photos/1024/480/?image=22"
+          img-alt="Pasaje Portales"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </header>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
+            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
+          </p>
+        </b-carousel-slide>
+        <b-carousel-slide caption="Second Slide" img-src="https://picsum.photos/1024/480/?image=12"></b-carousel-slide>
+        <b-carousel-slide caption="Third Slide" img-src="https://picsum.photos/1024/480/?image=22"></b-carousel-slide>
+      </b-carousel>
+    </div>
     <section class="py-5">
       <div class="container">
         <h1 class="font-weight-light">Nosotros Pasaje Portales</h1>
         <p class="lead">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor magni velit natus labore nesciunt praesentium.
-          <a href="https://unsplash.com">Unsplash</a>!
+          <a
+            href="https://unsplash.com"
+          >Unsplash</a>!
         </p>
       </div>
     </section>

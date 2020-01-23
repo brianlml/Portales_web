@@ -17,14 +17,14 @@ const routes = [
     component: () => import(/*webpackChunkName:"about"*/'../views/Figs.vue')
   },
   {
-    path: '/nebula',
-    name: 'nebula',
-    component: () => import(/*webpackChunkName:"about"*/'../views/Nebula.vue')
+    path: '/mandarina_bar',
+    name: 'mandarina_bar',
+    component: () => import(/*webpackChunkName:"about"*/'../views/Mandarina_bar.vue')
   },
   {
-    path: '/mandarina',
-    name: 'mandarina',
-    component: () => import(/*webpackChunkName:"about"*/'../views/Mandarina.vue')
+    path: '/mandarina_lounge',
+    name: 'mandarina_lounge',
+    component: () => import(/*webpackChunkName:"about"*/'../views/Mandarina_lounge.vue')
   },
   {
     path: '/rooftop',
