@@ -29,12 +29,12 @@
                     </li>
                     <li>
                       <div class="thumb-content">
-                        <a href="#.">Nebula</a>
+                        <a href="#.">Mandarina bar</a>
                       </div>
                     </li>
                     <li>
                       <div class="thumb-content">
-                        <a href="#.">Mandarina</a>
+                        <a href="#.">Mandarina lounge</a>
                       </div>
                     </li>
                     <li>
