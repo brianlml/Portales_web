@@ -40,7 +40,7 @@
           <img src="../assets/mandarina.jpg" class="card-img-top" alt="...">
         </b-dropdown-item>
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Mandarina</h5>
+          <h5 class="card-title mb-0">MANDARINA</h5>
         </div>
       </div>
     </div>
@@ -88,13 +88,6 @@
         </div>
       </div>
     </div>
-    <ul>
-        <li v-for="lugar in listaLugar" v-bind:key="lugar.titulo">
-          {{lugar.ruta}}
-          <p> {{ lugar.titulo }} </p>
-          <p> {{lugar.nombreImagen }} </p>
-        </li>
-      </ul>
   </div>
   <!-- /.row -->
 

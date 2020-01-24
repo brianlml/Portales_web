@@ -92,7 +92,7 @@ export default {
         uid: 1,
         titulo: 'Mandarina',
         ruta: '/mandarina',
-        nombreImagen: 'mandarina.jpg',
+        nombreImagen: '../assets/mandarina.jpg',
       });
       this.miListaLugares.push(lugarOne);
     },
