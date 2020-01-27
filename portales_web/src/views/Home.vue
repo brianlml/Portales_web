@@ -11,13 +11,15 @@
         img-height="480"
       >
         <b-carousel-slide
-          caption="First Slide"
+          caption="Pasaje Portales"
           img-src="https://picsum.photos/1024/480/?image=22"
           img-alt="Pasaje Portales"
         >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
+            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum. 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quisquam consequatur corrupti aliquam provident,
+             est inventore nemo minima ad perspiciatis modi iste, labore fugit possimus nisi adipisci vitae illum ipsum.
           </p>
         </b-carousel-slide>
         <b-carousel-slide caption="Second Slide" img-src="https://picsum.photos/1024/480/?image=12"></b-carousel-slide>

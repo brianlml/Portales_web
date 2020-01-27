@@ -46,11 +46,19 @@ const routes = [
     name: 'music',
     component: () => import(/*webpackChunkName:"about"*/'../views/Music.vue')
   },
+  {
+    path: '/lugares',
+    name: 'lugares',
+    component: () => import(/*webpackChunkName:"about"*/'../views/Rutas.vue')
+  },
  
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  scrollBehavior () {
+    return { x: 0, y: 0 }
+  }
 })
 
 export default router
