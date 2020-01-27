@@ -15,59 +15,26 @@
           img-src="https://picsum.photos/1024/480/?image=22"
           img-alt="Pasaje Portales"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    <section class="py-5">
-      <div class="container">
-        <h1 class="font-weight-light">Nosotros Pasaje Portales</h1>
-        <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor magni velit natus labore nesciunt praesentium.
-          <a href="https://unsplash.com">Unsplash</a>!
-        </p>
-      </div>
-    </section>
-    <Slide :listaLugar="miListaLugares"> </Slide>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
+            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
+          </p>
+        </b-carousel-slide>
+        <b-carousel-slide caption="Second Slide" img-src="https://picsum.photos/1024/480/?image=12"></b-carousel-slide>
+        <b-carousel-slide caption="Third Slide" img-src="https://picsum.photos/1024/480/?image=22"></b-carousel-slide>
+      </b-carousel>
+    </div>
+    <Slide />
   </div>
 </template>
 
 <script>
 import Slide from "../components/Slide.vue";
-import LugarModel from "../models/LugarModel";
-
 export default {
   name: "home",
   components: {
     Slide
-  },
-  data () {
-    return {
-      miListaLugares: []
-    }
-  },
-  methods: {
-    initialData() {
-      const lugarOne = new LugarModel({
-        uid: 1,
-        titulo: 'Mandarina',
-        ruta: '/mandarina',
-        nombreImagen: '../assets/mandarina.jpg',
-      });
-      this.miListaLugares.push(lugarOne);
-    },
-  },
-  beforeMount() {
-    this.initialData();
-  },
+  }
 };
 </script>
 

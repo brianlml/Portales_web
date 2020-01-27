@@ -1,6 +1,13 @@
 <template>
   <div>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda fuga molestias libero quasi non, porro, quaerat architecto nulla voluptates perferendis, maiores quod eveniet adipisci a magni quam fugiat ipsum?</h1>
+    <div class="portada">
+  <carousel>
+    <carousel-slide>
+      <img src="../assets/mandar_12.jpg" alt=""/>
+      </carousel-slide>
+  </carousel>
+</div>
+
   </div>
 </template>
 
@@ -11,5 +18,10 @@ export default {
 </script>
 
 <style>
+.portada{
+  margin: 5px ;
+  padding: 7px;
+  text-align: center
+}
 
 </style>

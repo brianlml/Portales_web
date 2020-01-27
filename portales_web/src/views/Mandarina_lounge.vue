@@ -1,18 +1,17 @@
 <template>
-    <div>
-        <b-container fluid class="p-4 bg-dark presentacion">
-  <b-row>
-    <b-col>
-      <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=54" alt="Image 1"></b-img>
-    </b-col>
-    <b-col>
-      <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=58" alt="Image 2"></b-img>
-    </b-col>
-    <b-col>
-      <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=59" alt="Image 3"></b-img>
-    </b-col>
-  </b-row>
-</b-container>
+    <div class="mt mr my ml">
+      <header class="bg-dark py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">
+            <img src="../assets/logotipo4.png" alt="">
+          </h1>
+          <p class="lead mb-5 text-white-50">disfruta de la excelente musicas con la variedad de bebidas.</p>
+        </div>
+      </div>
+    </div>
+  </header>
 <b-container>
   <b-row class="bv-example-row">
     <b-col>
@@ -24,9 +23,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 mb-5">
-        <h2>Acerca de Music Hall</h2>
+        <h2>Acerca de Mandarina LOUNGE</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+        <p></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
       </div>
       <div class="col-md-4 mb-5">
@@ -106,11 +105,14 @@ export default {
 .gallery{
     display:grid;
     grid-auto-columns: auto auto auto;
-    width: 100%;
     background-color:#424663;
 }
 .gallery img{
     width:100%;
+}
+.fondo{
+  background:#873b51;
+  text-align: center
 }
 
 
