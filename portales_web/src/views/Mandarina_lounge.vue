@@ -38,10 +38,10 @@
           <br>
         </address>
         <address>
-          <abbr title="Phone">P: </abbr>
+          <abbr>P: </abbr>
           76964063
           <br>
-          <abbr title="Email">E: </abbr>
+          <abbr>E: </abbr>
           <a href="mailto:#">productora.psyko@gmail.com</a>
         </address>
       </div>

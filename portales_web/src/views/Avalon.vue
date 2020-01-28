@@ -22,7 +22,8 @@
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-        <a class="btn btn-dark btn-lg" href="https://www.facebook.com/pg/MangosTropicalBar/events/?ref=page_internal">Eventos Proximos &raquo;</a>
+            <h2>Eventos proximos</h2>
+            <hr />
         <div>
           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Favaloncbba%2F&tabs=events&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="500" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
         </div>
@@ -37,10 +38,10 @@
           <br>
         </address>
         <address>
-          <abbr title="Phone">P: </abbr>
+          <abbr>P: </abbr>
           79793294
           <br>
-          <abbr title="Email">E: </abbr>
+          <abbr>E: </abbr>
           <a href="mailto:#">productora.psyko@gmail.com</a>
         </address>
       </div>
