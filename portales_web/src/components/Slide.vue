@@ -14,7 +14,7 @@
           <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-0 shadow" style="list-style:none">
               <b-dropdown-item to="/figs">
-                <img src="../assets/figs.jpg" class="card-img-top" />
+               <img src="../assets/figs.jpg" class="card-img-top" />
               </b-dropdown-item>
               <div class="card-body text-center">
                 <h5 class="card-title mb-0">Figs</h5>

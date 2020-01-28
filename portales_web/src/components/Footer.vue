@@ -135,6 +135,7 @@ export default {};
 </script>
 
 <style>
+
 /* Main Footer */
 footer .main-footer {
   padding: 20px 0;
