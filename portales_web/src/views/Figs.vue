@@ -1,10 +1,8 @@
 <template>
 <div>
-  <header class="bg-dark py-5 mb-5">
+  <header class="bg-dark mt-5 py-5 mb-5">
     <div class="container h-100">
-          <h1 class="display-4 text-white mt-5 mb-2">
-            <img src="../assets/logotipofigs.png">
-          </h1>
+            <img src="../assets/nuevoslogos/logotipo.png"/>
     </div>
   </header>
  <b-container>

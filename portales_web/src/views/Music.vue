@@ -1,11 +1,11 @@
 <template>
   <div>
       <!-- Header -->
-  <header class="bg-dark py-5 mb-5">
+  <header class="bg-dark mt-5 py-5 mb-5">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">Music Hall</h1>
+          <img src="../assets/nuevoslogos/logotipo (4).png"/>
           <p class="lead mb-5 text-white-50">El mas elegante, sofisticado y completo karaoke de la ciudad de Cochabamba</p>
         </div>
       </div>

@@ -239,10 +239,10 @@ footer.light .footer-copyright {
   margin-bottom: 18px;
 }
 .widget li a {
-  color: #ff8d1e;
+  color: #fff;
 }
 .widget li a:hover {
-  color: #4b92dc;
+  color: #fff;
 }
 .widget-title {
   margin-bottom: 20px;
