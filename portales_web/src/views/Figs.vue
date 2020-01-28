@@ -1,30 +1,92 @@
 <template>
-<div>
-  <b-embed
-    type="iframe"
-    aspect="16by9"
-    src="https://video.fvvi1-2.fna.fbcdn.net/v/t39.24130-2/79430914_146422709992630_1471510888553595902_n.mp4?_nc_cat=104&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_ohc=STs-dsLFgHAAX9Q_gVt&_nc_ht=video.fvvi1-2.fna&oh=0525a88949c95f7da4a235be024cc9d9&oe=5EA47EF6"
-  ></b-embed>
-  <div class="centrando mx-10 my-10">
-    <b-alert show variant="light">
-      <p> ¡Figs ya esta en Cochabamba, la mejor manera para salir de  fiesta!</p>
-      <p>Ambientes exclusivos de calidad para disfrutar de un buen FIN DE SEMANA.</p>
-      <p>Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez)</p>
-    </b-alert>
+  <div>
+    <div>
+      <!-- Header -->
+      <header class="bg-dark py-5 mb-5">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-lg-12">
+              <h1 class="display-4 text-white mt-5 mb-2">Figs</h1>
+              <p class="lead mb-5 text-white-50">Sky above us, earth below us, drinks within us</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Page Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mb-5">
+            <h2>Acerca de Figs</h2>
+            <hr />
+            <p>
+              ¡Figs ya esta en Cochabamba, la mejor manera para salir de fiesta!
+              Ambientes exclusivos de calidad para disfrutar de un buen FIN DE SEMANA.
+            </p>
+
+            <h2>Eventos proximos</h2>
+            <hr />
+
+            <div>
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFigsbolivia%2F&tabs=events&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                width="500"
+                height="500"
+                style="border:none;overflow:hidden"
+                scrolling="no"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <h2>Contacto</h2>
+            <hr />
+            <address>
+              <strong>Start Bootstrap</strong>
+              <br />3481 Melrose Place
+              <br />Beverly Hills, CA 90210
+              <br />
+            </address>
+            <address>
+              <abbr>Telefono:</abbr>
+              79793294
+              <br />
+              <abbr>Email:</abbr>
+              <a href="mailto:#">productora.psyko@gmail.com</a>
+            </address>
+            <div class="pl-0 xcol-md-4 mb-5">
+              <h2>Horario</h2>
+              <hr />
+              <b-nav>
+                <b-nav-item-dropdown
+                  id="my-nav-dropdown"
+                  text="Dias de atencion"
+                  toggle-class="nav-link-custom"
+                  right
+                >
+                  <b-dropdown-item>Viernes: 18:00-01:00</b-dropdown-item>
+                  <b-dropdown-item>Sabado: 17:00-01:00</b-dropdown-item>
+                  <b-dropdown-item>Domingo: CERRADO</b-dropdown-item>
+                </b-nav-item-dropdown>
+              </b-nav>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
   </div>
-</div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-.centrando{
-  text-align: center
+.centrando {
+  text-align: center;
 }
-
-
 </style>
