@@ -139,7 +139,7 @@ export default {};
 /* Main Footer */
 footer .main-footer {
   padding: 20px 0;
-  background: #252525;
+  background: linear-gradient(#1f2747,#2c778d	)
 }
 footer ul {
   padding-left: 0;
@@ -148,7 +148,7 @@ footer ul {
 
 /* Copy Right Footer */
 .footer-copyright {
-  background: #222;
+  background: #2c778d;
   padding: 5px 0;
 }
 .footer-copyright .logo {
@@ -298,7 +298,7 @@ ul.social-footer2 li {
   padding: 0;
 }
 ul.social-footer2 li a:hover {
-  background-color: #ff8d1e;
+  background-color: #2c778d;
 }
 ul.social-footer2 li a {
   display: block;

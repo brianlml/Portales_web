@@ -1,6 +1,6 @@
 <template>
 <div>
-  <header class="bg-dark mt-5 py-5 mb-5">
+  <header class="bg-dark mt-5 py-5 mb-5 texto1">
     <div class="container h-100">
             <img src="../assets/nuevoslogos/logotipo.png"/>
     </div>
@@ -47,32 +47,58 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
     </b-col>
   </b-row>
 </b-container>
-<div>
-   <div>
-    <h4>Top and Bottom</h4>
-    <b-card-group deck>
-      <b-card img-src="https://placekitten.com/1000/300" img-alt="Card image" img-top>
-        <b-card-text>
-          Some quick example text to build on the card and make up the bulk of the card's content.
-        </b-card-text>
-      </b-card>
-
-      <b-card img-src="https://placekitten.com/1000/300" img-alt="Card image" img-bottom>
-        <b-card-text>
-          Some quick example text to build on the card and make up the bulk of the card's content.
-        </b-card-text>
-      </b-card>
-    </b-card-group>
-  </div>
+<div class="tarjeta">
+  <b-container class="bv-example-row">
+  <b-row>
+    <b-col cols="3">
+      <img src="../assets/figs_1.jpg" alt="" class="fotografia">
+    </b-col>
+    <b-col cols="3">
+      <img src="../assets/fig_2.jpg" alt="" class="fotografia">
+    </b-col>
+    <b-col cols="3">
+      <img src="../assets/fig_3.jpg" alt="" class="fotografia">
+    </b-col>
+    <b-col cols="3">
+      <img src="../assets/fig_4.jpg" alt="" class="fotografia">
+    </b-col>
+  </b-row>
+  <p class="anuncio text-light">
+   ¡¡ AL MAL TIEMPO BUENA MUSICA !!
+  </p>
+</b-container>
 </div>
 </div>
 </template>
 <script>
-export default {};
+export default {
+
+}
+
 </script>
 
 <style>
+.tarjeta{
+background: linear-gradient(#22e105, #747474);
+margin:10px
+}
+.fotografia{
+  margin:10px;
+  height: 200px;
+  width: 300px;
+  border-radius: 50%
+}
+.anuncio{
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px
+}
 
+.texto1 {
+  background: linear-gradient(#2c778d, #4ec0e1 )
+}
 
 
 </style>

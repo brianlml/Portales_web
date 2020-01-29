@@ -1,7 +1,7 @@
 <template>
   <div>
       <!-- Header -->
-  <header class="bg-dark mt-5 py-5 mb-5">
+  <header class="bg-dark mt-5 py-5 mb-5 texto1">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
@@ -91,5 +91,7 @@ export default {
 </script>
 
 <style>
-
+.texto1 {
+  background: linear-gradient(#2c778d, #4ec0e1 )
+}
 </style>

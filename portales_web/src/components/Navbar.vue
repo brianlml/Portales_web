@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark bg-dark fixed-top texto">
       <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
@@ -35,7 +35,6 @@ export default {
 };
 </script>
 
-
 <style>
 .router-link-exact-active {
   color: #fff;
@@ -50,5 +49,8 @@ export default {
 .router-link-active:hover {
   text-decoration: none;
   color: #fff;
+}
+.texto {
+  background: linear-gradient(#1c375c, #2c778d)
 }
 </style>
