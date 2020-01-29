@@ -1,6 +1,6 @@
 <template>
     <div class="mt mr my ml">
-      <header class="bg-dark py-5 mb-5">
+      <header class="bg-dark py-5 mb-5 texto1">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
@@ -40,10 +40,10 @@ Durante estos más de 15 años MANDARINA se ha consolidado como una tradición e
           <br>
         </address>
         <address>
-          <abbr title="Phone">P: </abbr>
+          <abbr>P: </abbr>
           76964063
           <br>
-          <abbr title="Email">E: </abbr>
+          <abbr>E: </abbr>
           <a href="mailto:#">productora.psyko@gmail.com</a>
         </address>
       </div>

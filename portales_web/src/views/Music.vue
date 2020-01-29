@@ -1,11 +1,11 @@
 <template>
   <div>
       <!-- Header -->
-  <header class="bg-dark py-5 mb-5">
+  <header class="bg-dark mt-5 py-5 mb-5 texto1">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">Music Hall</h1>
+          <img src="../assets/nuevoslogos/logotipo (4).png"/>
           <p class="lead mb-5 text-white-50">El mas elegante, sofisticado y completo karaoke de la ciudad de Cochabamba</p>
         </div>
       </div>
@@ -21,7 +21,8 @@
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-        <a class="btn btn-dark btn-lg" href="https://www.facebook.com/pg/musichallcbba/events/?ref=page_internal">Eventos Proximos &raquo;</a>
+            <h2>Eventos proximos</h2>
+            <hr />
         <div>
           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmusichallcbba%2F&tabs=events&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="500" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
         </div>
@@ -37,10 +38,10 @@
           <br>
         </address>
         <address>
-          <abbr title="Phone">P: </abbr>
+          <abbr>P: </abbr>
           76964063
           <br>
-          <abbr title="Email">E: </abbr>
+          <abbr>E: </abbr>
           <a href="mailto:#">productora.psyko@gmail.com</a>
         </address>
       </div>
@@ -90,5 +91,7 @@ export default {
 </script>
 
 <style>
-
+.texto1 {
+  background: linear-gradient(#2c778d, #4ec0e1 )
+}
 </style>
