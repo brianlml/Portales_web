@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div>
+    <div class="principal">
       <!-- Header -->
-      <header class="bg-dark text-center py-5 mb-4">
+      <header class="text-center py-5 mb-4 texto">
         <div class="container">
-          <h1 class="font-weight-light text-white">LUGARES PARA DISFRUTAR</h1>
+          <h1 class="font-weight-light text-white">LUGARES PARA DISFRUTAR </h1>
         </div>
       </header>
 
@@ -105,4 +105,10 @@ export default {
 };
 </script>
 <style>
+.principal{
+  background: linear-gradient(#151633, #2c778d,#151633)
+}
+.texto{
+  background: linear-gradient(#1c375c, #2c778d)
+}
 </style>

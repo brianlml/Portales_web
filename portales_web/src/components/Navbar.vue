@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
       <div class="container">
         <b-nav-item to="/" style="list-style:none">
         <img src="../assets/logoblanco.png" height="50px" width="auto"></b-nav-item>
@@ -14,6 +14,7 @@ export default {};
 </script>
 
 <style>
-
-
+.color{
+  background: #151633
+}
 </style>
