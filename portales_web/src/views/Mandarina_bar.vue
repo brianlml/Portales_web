@@ -7,10 +7,11 @@
       </carousel-slide>
   </carousel>
 </div>
+<div class="bar">
 <b-container>
   <b-row class="bv-example-row">
     <b-col>
-        <img src="../assets/mandar_2.jpg" alt="" height="400px" width="500px">
+        <img src="../assets/mandar_2.jpg" alt="" class="dj">
     </b-col>
     <b-col>
         <div>
@@ -50,6 +51,8 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
   </b-row>
 </b-container>
 
+</div>
+  </div>
       <!-- Page Content -->
       <div class="container">
         <div class="row">
@@ -116,6 +119,7 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
       </div>
       <!-- /.container -->
     </div>
+
 </template>
 
 <script>
@@ -127,5 +131,16 @@ export default {};
   margin: 5px;
   padding: 7px;
   text-align: center;
+}
+
+.dj{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
+}
+
+.bar{
+  background: linear-gradient(#2c778d,#1c375c)
 }
 </style>
