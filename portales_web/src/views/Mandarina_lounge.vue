@@ -7,15 +7,16 @@
           <h1 class="display-4 text-white mt-5 mb-2">
             <img src="../assets/logotipo4.png" alt="">
           </h1>
-          <p class="lead mb-5 text-white-50">disfruta de la excelente musicas con la variedad de bebidas.</p>
+          <p class="lead mb-5 text-white-50">disfruta de la excelente musica con la variedad de bebidas.</p>
         </div>
       </div>
     </div>
   </header>
+  <div class="presentacion">
 <b-container>
   <b-row class="bv-example-row">
     <b-col>
-        <img src="../assets/mandar_2.jpg" alt="" height="400px" width="500px">
+        <img src="../assets/mandar_2.jpg" alt="" class="djs">
     </b-col>
     <b-col>
         <div>
@@ -23,11 +24,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 mb-5">
-        <h2>Acerca de Mandarina LOUNGE</h2>
+        <h2>Mandarina LOUNGE</h2>
         <hr>
-        <p></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-      </div>
+        <p>MANDARINA LOUNGE desde su inicio el 13 de diciembre de 2003 ha revolucionado el concepto de club en nuestro medio, logrando una excelente combinación en diseño, arquitectura, servicio sofisticado, iluminación y sonido. 
+Durante estos más de 15 años MANDARINA se ha consolidado como una tradición en las noches cochabambinas.</p>
+<p>Ven y siéntete libre, la diversión no tiene límites.</p>
+        </div>
       <div class="col-md-4 mb-5">
         <h2>Contacto</h2>
         <hr>
@@ -51,7 +53,8 @@
     </b-col>
   </b-row>
 </b-container>
-<div class="gallery">
+</div>
+<div class="gallery fondo">
     <b-container class="bv-example-row albun  ">
   <b-row>
     <b-col>
@@ -61,12 +64,6 @@
         <img src="../assets/mandar_8.jpg" class="mb-4">
     </b-col>
   </b-row>
-  <b-alert show variant="secondary"> 
-      <h3>MANDARINA: más de 15 años y seguimos bailando juntos! </h3>
-      <p>MANDARINA LOUNGE desde su inicio el 13 de diciembre de 2003 ha revolucionado el concepto de club en nuestro medio, logrando una excelente combinación en diseño, arquitectura, servicio sofisticado, iluminación y sonido. 
-Durante estos más de 15 años MANDARINA se ha consolidado como una tradición en las noches cochabambinas.</p>
-<p>Ven y siéntete libre, la diversión no tiene límites.</p>
-  </b-alert>
   <b-row>
     <b-col>
         <img src="../assets/mandar_11.jpg" alt="">
@@ -94,9 +91,7 @@ export default {
 
 <style>
 .presentacion{
-    margin: 30px;
-    padding: 30px 30px;
-    text-align: center
+  background: linear-gradient( #1c375c,#4ec0e1,#151633)
 }
 .albun{
     margin: 90px;
@@ -105,16 +100,19 @@ export default {
 .gallery{
     display:grid;
     grid-auto-columns: auto auto auto;
-    background-color:#424663;
 }
 .gallery img{
     width:100%;
+    border-radius: 20px
 }
 .fondo{
-  background:#873b51;
-  text-align: center
+  background: radial-gradient(#4ec0e1, #1c375c,#151633)
 }
-
-
+.djs{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
+}
 
 </style>
