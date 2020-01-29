@@ -1,43 +1,54 @@
 <template>
-  <div class="navbar">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <b-nav-item style="list-style:none">
-        <img src="../assets/logoblanco.png" height="50px" width="auto"></b-nav-item>
-        <router-link class="router-link-exact-active" to="/">Inicio</router-link> |
-        <router-link class="router-link-exact-active" to="/lugares">Lugares</router-link>
+  <div>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark bg-dark">
+      <button
+        class="navbar-toggler navbar-toggler-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <router-link class="nav-link" to="/">Inicio</router-link>
+          </li>
+        </ul>
+        <router-link class="navbar-brand" to="/">Pasaje Portales</router-link>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <router-link class="nav-link" to="/lugares">Lugares</router-link>
+          </li>
+        </ul>
       </div>
     </nav>
-    
+    </div>
   </div>
 </template>
 <script>
-
 export default {
-   components: {
-   
-  }
+  components: {}
 };
 </script>
 
 
 <style>
 .router-link-exact-active {
-  
-  color:#fff;
-
+  color: #fff;
 }
 .router-link-exact-active:hover {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
-.router-link-active{
-  color:#fff;
+.router-link-active {
+  color: #fff;
 }
 .router-link-active:hover {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
-
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div >
     <div>
-      <header class="bg-dark text-center py-4 mb-5">
+      <header class="bg-light text-center py-4 mb-1">
       </header>
      <!-- Page Content -->
       <div class="container">
