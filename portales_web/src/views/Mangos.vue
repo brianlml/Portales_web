@@ -59,7 +59,7 @@
 
         <div class="container">
           <div class="card-columns">
-                <div class="card">
+                <div class="card" >
                                 <div >
                                     <b-button v-b-modal.modal-1 ><img src="../assets/mangos.jpg" class="card-img-top"/></b-button>
                                     <b-modal id="modal-1" hide-footer hide-header>
@@ -80,7 +80,7 @@
 export default {
   data (){
     return {
-  
+      
   }
 },
 
