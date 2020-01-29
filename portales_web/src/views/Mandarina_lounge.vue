@@ -1,6 +1,6 @@
 <template>
     <div class="mt mr my ml">
-      <header class="bg-dark py-5 mb-5 texto1">
+      <header class="bg-dark py-5 texto1">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">

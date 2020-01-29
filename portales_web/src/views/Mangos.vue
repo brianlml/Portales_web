@@ -35,6 +35,7 @@
                 allow="encrypted-media"
               ></iframe>
             </div>
+            
           </div>
           <div class="col-md-4 mb-5">
             <h2>Contacto</h2>
@@ -52,23 +53,34 @@
               <abbr>E:</abbr>
               <a href="mailto:#">productora.psyko@gmail.com</a>
             </address>
+                                            <div >
+                                    <b-button v-b-modal.modal-1>Click!»</b-button>
+                                    <b-modal id="modal-1" hide-footer hide-header>
+                                    <!--<img src="../assets/mangos.jpg" class="img-fluid rounded" />-->
+                                            <iframe
+                                            
+                                              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                                              width="470"
+                                              height="300"
+                                              style="border:none;overflow:hidden"
+                                              scrolling="no"
+                                              frameborder="0"
+                                              allowtransparency="true"
+                                              allow="encrypted-media"
+                                            ></iframe>
+                                    </b-modal>
+                                </div>
           </div>
+          
         </div>
         <!-- /.row -->
         <h1 class="text-center my-2">Galeria de Eventos</h1>
+        
+                
 
-        <div class="container">
-          <div class="card-columns">
-                <div class="card" >
-                                <div >
-                                    <b-button v-b-modal.modal-1 ><img src="../assets/mangos.jpg" class="card-img-top"/></b-button>
-                                    <b-modal id="modal-1" hide-footer hide-header>
-                                      <img src="../assets/mangos.jpg" class="img-fluid rounded" />
-                                    </b-modal>
-                                </div>
-                </div>
-          </div>
-        </div>
+               
+          
+        
         <!-- /.row -->
       </div>
       <!-- /.container -->

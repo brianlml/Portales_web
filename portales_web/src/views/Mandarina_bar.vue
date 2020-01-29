@@ -1,22 +1,25 @@
 <template>
-  <div>
-    <div class="portada">
-  <carousel>
-    <carousel-slide>
-      <img src="../assets/mandar_12.jpg" alt=""/>
-      </carousel-slide>
-  </carousel>
-</div>
-<div class="bar">
+<div class="bar py-5">
 <b-container>
   <b-row class="bv-example-row">
     <b-col>
         <img src="../assets/mandar_2.jpg" alt="" class="dj">
+        <iframe
+                class="hola"
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                width="500"
+                height="300"
+                style="border:none;overflow:hidden"
+                scrolling="no"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
     </b-col>
     <b-col>
         <div>
   <!-- Page Content -->
-  <div class="container">
+  <div class="container py-5">
     <div class="row">
       <div class="col-md-8 mb-5">
         <h2>Acerca de FIGS.</h2>
@@ -52,7 +55,7 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
 </b-container>
 
 </div>
-  </div>
+
 </template>
 
 <script>
@@ -75,5 +78,9 @@ export default {};
 
 .bar{
   background: linear-gradient(#2c778d,#1c375c)
+}
+.hola{
+  filter: grayscale(50%);
+
 }
 </style>
