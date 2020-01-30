@@ -122,4 +122,8 @@ export default {
       background-color: #2c778d;
 
 }
+/** .card border-0 shadow :hover{
+  background-color: #2c778d
+}*/
+
 </style>
