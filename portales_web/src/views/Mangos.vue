@@ -64,6 +64,30 @@
       </div>
       <!-- /.container -->
     </div>
+    <div class="gallery fondo">
+    <b-container class="bv-example-row albun  ">
+  <b-row>
+    <b-col>
+        <img src="../assets/mandar_6.jpg">
+    </b-col>
+    <b-col>
+        <img src="../assets/mandar_8.jpg" class="mb-4">
+    </b-col>
+  </b-row>
+  <b-row>
+    <b-col>
+        <img src="../assets/mandar_11.jpg" alt="">
+    </b-col>
+    <b-col>
+        <img src="../assets/manda_1.jpg" alt="">
+    </b-col>
+    <b-col>
+        <img src="../assets/manda_4.jpg" alt="">
+        <img src="../assets/mandar_3.jpg" class="mt-5">
+    </b-col>
+  </b-row>
+</b-container>
+</div>
   </div>
 </template>
 
