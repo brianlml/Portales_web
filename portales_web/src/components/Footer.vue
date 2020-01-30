@@ -329,6 +329,6 @@ ul.social-footer2 li a {
   transition: all 250ms ease-in-out 0s;
 }
 .map{
-  filter: grayscale(100%);
+  filter: grayscale(50%);
 }
 </style>

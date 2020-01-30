@@ -4,17 +4,7 @@
   <b-row class="bv-example-row">
     <b-col>
         <img src="../assets/mandar_2.jpg" alt="" class="dj">
-        <iframe
-                class="hola"
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                width="500"
-                height="300"
-                style="border:none;overflow:hidden"
-                scrolling="no"
-                frameborder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-              ></iframe>
+
     </b-col>
     <b-col>
         <div>
@@ -46,6 +36,19 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
           <abbr title="Email">E: </abbr>
           <a href="mailto:#">productora.psyko@gmail.com</a>
         </address>
+            <div>
+              <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
+              <b-modal id="modal-1" title="Mandarina bar" hide-footer>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaBarCocha%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                width="470" 
+                height="300" 
+                style="border:none;overflow:hidden" 
+                scrolling="no" 
+                frameborder="0" 
+                allowTransparency="true" 
+                allow="encrypted-media"></iframe>
+              </b-modal>
+            </div>
       </div>
     </div>
   </div>

@@ -40,6 +40,21 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
           <abbr title="Email">E: </abbr>
           <a href="mailto:#">productora.psyko@gmail.com</a>
         </address>
+         <div>
+            <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
+
+            <b-modal id="modal-1" title="Figs" hide-footer>
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFigsbolivia%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                width="470" 
+                height="300" 
+                style="border:none;overflow:hidden" 
+                scrolling="no" 
+                frameborder="0" 
+                allowTransparency="true" 
+                allow="encrypted-media"
+                ></iframe>
+            </b-modal>
+         </div>
       </div>
     </div>
   </div>

@@ -21,21 +21,6 @@
             <hr />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-            <h2>Eventos proximos</h2>
-            <hr />
-            <div>
-              <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                width="500"
-                height="300"
-                style="border:none;overflow:hidden"
-                scrolling="no"
-                frameborder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-              ></iframe>
-            </div>
-            
           </div>
           <div class="col-md-4 mb-5">
             <h2>Contacto</h2>
@@ -53,12 +38,11 @@
               <abbr>E:</abbr>
               <a href="mailto:#">productora.psyko@gmail.com</a>
             </address>
-                                            <div >
-                                    <b-button v-b-modal.modal-1>Click!»</b-button>
-                                    <b-modal id="modal-1" hide-footer hide-header>
+                                <div >
+                                    <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
+                                    <b-modal id="modal-1" title="Mangos Bar" hide-footer>
                                     <!--<img src="../assets/mangos.jpg" class="img-fluid rounded" />-->
                                             <iframe
-                                            
                                               src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
                                               width="470"
                                               height="300"
@@ -74,12 +58,7 @@
           
         </div>
         <!-- /.row -->
-        <h1 class="text-center my-2">Galeria de Eventos</h1>
-        
-                
-
-               
-          
+    
         
         <!-- /.row -->
       </div>
