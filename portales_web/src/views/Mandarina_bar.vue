@@ -24,13 +24,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 mb-5">
-        <h2>Acerca de FIGS.</h2>
+        <h2>Acerca de Mandarina Bar.</h2>
         <hr>
-        <p>¡Figs ya esta en Cochabamba, la mejor manera para salir de  fiesta! 
-Ambientes exclusivos de calidad para disfrutar de un buen FIN DE SEMANA.
-Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
-</p>
-        <p>Eso no es todo, en Figs disfrutaras la variedad de musica para bailar y sentir el ritmo en todo el cuerpo además de las distintas temáticas que se preparan.</p>
+        <p>2007, NACE MANDARINA BAR para traer a Cochabamba la cultura de los grandes bares del mundo. Un lugar para ver y ser visto, un proyecto enfocado en comida, piqueos, variedad de bebidas, música variada.</p>
+        <p>El bar se destaca por el servicio, y las diferentes tematicas de entre semana en especial las noches brasileras. </p>
       </div>
       <div class="col-md-4 mb-5">
         <h2>Contacto</h2>
@@ -52,6 +49,29 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
     </div>
   </div>
         </div>
+    </b-col>
+  </b-row>
+</b-container>
+</div>
+<div class="gallery fondo">
+    <b-container class="bv-example-row albun  ">
+  <b-row>
+    <b-col>
+        <img src="../assets/mandabar_1.jpg">
+    </b-col>
+    <b-col>
+        <img src="../assets/mandabar_2.jpg" class="mb-4">
+    </b-col>
+  </b-row>
+  <b-row>
+    <b-col>
+        <img src="../assets/mandabar_3.jpg" alt="">
+    </b-col>
+    <b-col>
+        <img src="../assets/mandabar_4.jpg" alt="">
+    </b-col>
+    <b-col>
+        <img src="../assets/mandabar_7.jpg" alt="" height="240px">
     </b-col>
   </b-row>
 </b-container>
@@ -83,6 +103,17 @@ export default {
 }
 .colores{
   color:#eef3d8
+}
+.gallery{
+    display:grid;
+    grid-auto-columns: auto auto auto;
+}
+.gallery img{
+    width:100%;
+    border-radius: 20px
+}
+.fondo{
+  background: radial-gradient(#4ec0e1, #1c375c,#151633)
 }
 
 
