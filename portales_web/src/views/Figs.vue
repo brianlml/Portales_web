@@ -5,13 +5,14 @@
             <img src="../assets/nuevoslogos/logotipo.png"/>
     </div>
   </header>
+  <div class="bar">
  <b-container>
   <b-row class="bv-example-row">
     <b-col>
-        <img src="../assets/fig_8.jpg" alt="" height="400px" width="500px">
+        <img src="../assets/fig_8.jpg" alt="" class="djs">
     </b-col>
     <b-col>
-        <div>
+        <div class="colores">
   <!-- Page Content -->
   <div class="container">
     <div class="row">
@@ -62,6 +63,7 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
     </b-col>
   </b-row>
 </b-container>
+</div>
 <div class="tarjeta">
   <b-container class="bv-example-row">
   <b-row>
@@ -110,7 +112,6 @@ margin:10px
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 40px
 }
-
 .texto1 {
   background: linear-gradient(#2c778d, #4ec0e1 )
 }

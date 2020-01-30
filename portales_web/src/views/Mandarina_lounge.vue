@@ -1,6 +1,6 @@
 <template>
     <div class="mt mr my ml">
-      <header class="bg-dark py-5 texto1">
+      <header class="py-5 mb-5 texto1">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
@@ -12,13 +12,13 @@
       </div>
     </div>
   </header>
-  <div class="presentacion">
+  <div class="bar">
 <b-container>
   <b-row class="bv-example-row">
     <b-col>
         <img src="../assets/mandar_2.jpg" alt="" class="djs">
     </b-col>
-    <b-col>
+    <b-col class="colores">
         <div>
   <!-- Page Content -->
   <div class="container">
@@ -106,7 +106,7 @@ export default {
 
 <style>
 .presentacion{
-  background: linear-gradient( #1c375c,#4ec0e1,#151633)
+  background: linear-gradient(#4ec0e1,#1c375c,#151633)
 }
 .albun{
     margin: 90px;
@@ -128,6 +128,9 @@ export default {
   width: 500px;
   margin: 50px;
   border-radius: 30px
+}
+.texto1 {
+  background: linear-gradient(#2c778d, #4ec0e1 )
 }
 
 </style>

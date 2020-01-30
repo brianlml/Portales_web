@@ -13,16 +13,24 @@
       >
         <b-carousel-slide
           caption="Pasaje Portales"
-          img-src="https://picsum.photos/1024/480/?image=22"
+          :img-src="require('../assets/pasaje/entrada_3.jpeg')"
           img-alt="Pasaje Portales"
         >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum. 
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quisquam consequatur corrupti aliquam provident,
-             est inventore nemo minima ad perspiciatis modi iste, labore fugit possimus nisi adipisci vitae illum ipsum.
-          </p>
+        <p>Lorem, ipsum dolor.</p>
         </b-carousel-slide>
+         <b-carousel-slide>
+        <template v-slot:img>
+          <img
+            caption="Pruebaaa"
+            class="d-block img-fluid w-100"
+            width="1024"
+            height="480"
+            src="../assets/pasaje/entrada_3.jpeg"
+            alt="image slot"
+          >
+        </template>
+      </b-carousel-slide>
+      
         <b-carousel-slide caption="Second Slide" img-src="https://picsum.photos/1024/480/?image=12"></b-carousel-slide>
         <b-carousel-slide caption="Third Slide" img-src="https://picsum.photos/1024/480/?image=22"></b-carousel-slide>
       </b-carousel>

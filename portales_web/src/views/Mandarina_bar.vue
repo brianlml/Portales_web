@@ -1,13 +1,25 @@
 <template>
-<div class="bar py-5">
+  <div>
+    <header class="py-5 mb-5 texto1">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">
+            <img src="../assets/logotipo4.png" alt="">
+          </h1>
+          <p class="lead mb-5 text-white-50">disfruta de la excelente musica con la variedad de bebidas.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+<div class="bar">
 <b-container>
   <b-row class="bv-example-row">
     <b-col>
-        <img src="../assets/mandar_2.jpg" alt="" class="dj">
-
+        <img src="../assets/mandabar_5.jpg" alt="" class="dj">
     </b-col>
     <b-col>
-        <div>
+        <div class="colores">
   <!-- Page Content -->
   <div class="container py-5">
     <div class="row">
@@ -56,22 +68,22 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
     </b-col>
   </b-row>
 </b-container>
-
+  </div>
 </div>
-
 </template>
 
 <script>
-export default {};
+export default {
+
+}
 </script>
 
 <style>
-.portada {
-  margin: 5px;
+.portada{
+  margin: 5px ;
   padding: 7px;
-  text-align: center;
+  text-align: center
 }
-
 .dj{
   height: 400px;
   width: 500px;
@@ -82,8 +94,9 @@ export default {};
 .bar{
   background: linear-gradient(#2c778d,#1c375c)
 }
-.hola{
-  filter: grayscale(50%);
-
+.colores{
+  color:#eef3d8
 }
+
+
 </style>
