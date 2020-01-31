@@ -21,16 +21,16 @@
         <hr>
         <p>¡Figs ya esta en Cochabamba, la mejor manera para salir de  fiesta! 
 Ambientes exclusivos de calidad para disfrutar de un buen FIN DE SEMANA.
-Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
+Excelente ubicación  para comenzar la noche.
 </p>
-        <p>Eso no es todo, en Figs disfrutaras la variedad de musica para bailar y sentir el ritmo en todo el cuerpo además de las distintas temáticas que se preparan.</p>
+        <p>Eso no es todo, en Figs disfrutaras la variedad de musica para bailar y sentir el ritmo en todo el cuerpo además de las distintas temáticas preparadas.</p>
       </div>
       <div class="col-md-4 mb-5">
         <h2>Contacto</h2>
         <hr>
         <address>
-          <strong>Start Bootstrap</strong>
-          <br>3481 Melrose Place
+          <strong>Información</strong>
+          <br>Aceptamos
           <br>Beverly Hills, CA 90210
           <br>
         </address>

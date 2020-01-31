@@ -19,8 +19,8 @@
           <div class="col-md-8 mb-5">
             <h2>Acerca de Mangos bar</h2>
             <hr />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+            <p>Quieres divertirte de manera mas casual sin tanto protocolo y formalidades, MANGOS es la mejor opción donde encuentras el ambiente tropical y casual para disfrutar tu espacio de ocio junto a tus amigos.</p>
+            <p>Un ambiente comodo con los tragos perfectos, con presentación de musicos y bailarines que te haran disfrutar con su espectacular show.</p>
           </div>
           <div class="col-md-4 mb-5">
             <h2>Contacto</h2>

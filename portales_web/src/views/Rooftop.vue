@@ -20,9 +20,9 @@
           <div class="col-md-8 mb-5">
             <h2>Acerca de 410 Rooftop</h2>
             <hr />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+            <p>¡Disfrutar de una noche de fiesta y del buen clima en Cochabamba es posible! Y es que en el pasaje portales nos encuentras, RoofTop una discoteca que esta pensada para que todo el mundo pueda salir y disfrutar de una copa en la terraza.</p>
+            <p>RoofTop un local exclusivo y elegante, donde puedes disfrutar del paisaje nocturno y las bellas montañas de nuestra Cochabamba acompañado con tus amigos y un buen trago.</p>
           <div>
-
         </div>
       </div>
           <div class="col-md-4 mb-5">
@@ -95,10 +95,10 @@
   </b-row>
   <b-row>
     <b-col>
-        <img src="../assets/rooftop_4.jpg" class="mt-5" height="420px">
+        <img src="../assets/rooftop4.jpg" class="mt-5">
     </b-col>
     <b-col>
-        <img src="../assets/rooftop_9.jpg" class="mt-5">
+        <img src="../assets/rooftop9.jpg" class="mt-5">
     </b-col>
   </b-row>
 </b-container>
