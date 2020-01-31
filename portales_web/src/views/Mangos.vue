@@ -26,20 +26,39 @@
             <h2>Contacto</h2>
             <hr />
             <address>
-              <strong>Start Bootstrap</strong>
-              <br />3481 Melrose Place
-              <br />Beverly Hills, CA 90210
-              <br />
-            </address>
-            <address>
-              <abbr>P:</abbr>
-              79793294
-              <br />
-              <abbr>E:</abbr>
-              <a href="mailto:#">productora.psyko@gmail.com</a>
+                  <strong>Mangos</strong>
+                      <ul class="social-footer2">
+                        <li class>
+                          <a href="https://www.facebook.com/MangosTropicalBar/" target="_blank" title="Facebook">
+                            <img
+                              alt="Facebook"
+                              width="30"
+                              height="30"
+                              src="../assets/icons/facebook.png"
+                            />
+                          </a>
+                        </li>
+                        Facebook
+                      </ul>
+                      <strong>Teléfono</strong>
+                      <ul class="social-footer2">
+                        <li class>
+                          <a href="https://www.facebook.com/pg/MangosTropicalBar/about/?ref=page_internal" target="_blank" title="Teléfono">
+                            <img
+                              alt="Teléfono"
+                              width="30"
+                              height="30"
+                              src="../assets/icons/telefono.png"
+                            />
+                          </a>
+                        </li>
+                        79793294
+                      </ul>
             </address>
             <div>
-              <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
+              <h2>Eventos</h2>
+              <hr>
+              <b-button v-b-modal.modal-1>Click aquí</b-button>
               <b-modal id="modal-1" title="Mangos Bar" hide-footer>
                 <!--<img src="../assets/mangos.jpg" class="img-fluid rounded" />-->
                 <iframe

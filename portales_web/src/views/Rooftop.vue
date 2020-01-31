@@ -29,38 +29,22 @@
             <h2>Contacto</h2>
             <hr />
             <address>
-              <strong>Start Bootstrap</strong>
-              <br />3481 Melrose Place
-              <br />Beverly Hills, CA 90210
-              <br />
-            </address>
-            <address>
-              <abbr>Telefono:</abbr>
-              79793294
-              <br />
-              <abbr>Email:</abbr>
-              <a href="mailto:#">productora.psyko@gmail.com</a>
-            </address>
-            <div>
-  <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
-
-  <b-modal id="modal-1" title="410 Rooftop" hide-footer>
-                  <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F410Rooftop%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                width="470"
-                height="300"
-                style="border:none;overflow:hidden"
-                scrolling="no"
-                frameborder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-              ></iframe>
-  </b-modal>
-</div>
-            <div class="pl-0 xcol-md-4 mb-5">
-              <h2>Horario</h2>
-              <hr>
-                <b-nav>
+                  <strong>410 Rooftop</strong>
+                      <ul class="social-footer2">
+                        <li class>
+                          <a href="https://www.facebook.com/410Rooftop/" target="_blank" title="Facebook">
+                            <img
+                              alt="Facebook"
+                              width="30"
+                              height="30"
+                              src="../assets/icons/facebook.png"
+                            />
+                          </a>
+                        </li>
+                        Facebook
+                      </ul>
+                      <strong>Horario</strong>
+                       <b-nav>
                 <b-nav-item-dropdown
                   id="my-nav-dropdown"
                   text="Dias de atencion"
@@ -76,7 +60,26 @@
                   <b-dropdown-item>Domingo:    CERRADO</b-dropdown-item>
                 </b-nav-item-dropdown>
                 </b-nav>
+            </address>
+
+            <div>
+                  <h2>Eventos</h2>
+                  <hr>
+                  <b-button v-b-modal.modal-1>Click aquí</b-button>
+                <b-modal id="modal-1" title="410 Rooftop" hide-footer>
+                  <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F410Rooftop%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                    width="470"
+                    height="300"
+                    style="border:none;overflow:hidden"
+                    scrolling="no"
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                  ></iframe>
+              </b-modal>
             </div>
+ 
           </div>
         </div>
       </div>
