@@ -87,7 +87,7 @@
                   </h5>
 
                   <p>
-                    <a href="mailto:info@domain.com" title="Email">nalei048@gmail.com</a>
+                    <a href="mailto:info@domain.com" title="Email">naleida048@gmail.com</a>
                   </p>
                   <p>
                     <a href="mailto:info@domain.com" title="Email">brian_coria@outlook.com</a>

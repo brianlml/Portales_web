@@ -1,6 +1,6 @@
 <template>
     <div class="mt mr my ml">
-      <header class="py-5 mb-5 texto1">
+      <header class="py-5 mb-0 texto1">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
@@ -34,21 +34,39 @@ Durante estos más de 15 años MANDARINA se ha consolidado como una tradición e
         <h2>Contacto</h2>
         <hr>
         <address>
-          <strong>Start Bootstrap</strong>
-          <br>3481 Melrose Place
-          <br>Beverly Hills, CA 90210
-          <br>
-        </address>
-        <address>
-          <abbr>P: </abbr>
-          76964063
-          <br>
-          <abbr>E: </abbr>
-          <a href="mailto:#">productora.psyko@gmail.com</a>
+                  <strong>Mandarina Lounge</strong>
+                      <ul class="social-footer2">
+                        <li class>
+                          <a href="https://www.facebook.com/MandarinaLOUNGE/" target="_blank" title="Facebook">
+                            <img
+                              alt="Facebook"
+                              width="30"
+                              height="30"
+                              src="../assets/icons/facebook.png"
+                            />
+                          </a>
+                        </li>
+                        Facebook
+                      </ul>
+                      <strong>Teléfono</strong>
+                      <ul class="social-footer2">
+                        <li class>
+                          <a href="https://www.facebook.com/pg/MandarinaLOUNGE/about/?ref=page_internal" target="_blank" title="Teléfono">
+                            <img
+                              alt="Teléfono"
+                              width="30"
+                              height="30"
+                              src="../assets/icons/telefono.png"
+                            />
+                          </a>
+                        </li>
+                        4 4798613
+                      </ul>
         </address>
          <div>
-            <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
-
+           <h2>Eventos</h2>
+           <hr>
+            <b-button v-b-modal.modal-1>Click aquí</b-button>
             <b-modal id="modal-1" title="Mandarina lounge" hide-footer>
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaLOUNGE%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
                   width="470" 
@@ -126,8 +144,8 @@ export default {
 .djs{
   height: 400px;
   width: 500px;
-  margin: 50px;
   border-radius: 30px
+
 }
 .texto1 {
   background: linear-gradient(#2c778d, #4ec0e1 )
