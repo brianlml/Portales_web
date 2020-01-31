@@ -15,13 +15,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Inicio</router-link>
+            <router-link class="nav-link" to="/"><img src="../assets/icons/inicio.png" width="30" height="30"></router-link>
           </li>
         </ul>
         <router-link class="navbar-brand" to="/">Pasaje Portales</router-link>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/lugares">Lugares</router-link>
+            <router-link class="nav-link" to="/lugares"><img src="../assets/icons/lugares.png" width="30" height="30"></router-link>
           </li>
         </ul>
       </div>
