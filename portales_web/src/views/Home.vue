@@ -12,17 +12,12 @@
       >
         <b-carousel-slide
           caption="Pasaje Portales"
-          img-src="https://picsum.photos/1024/480/?image=22"
+          :img-src="require('../assets/pasajentrada3.png')"
           img-alt="Pasaje Portales"
         >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-            a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum. 
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quisquam consequatur corrupti aliquam provident,
-             est inventore nemo minima ad perspiciatis modi iste, labore fugit possimus nisi adipisci vitae illum ipsum.
-          </p>
+          <p class="text-center">Aqui puedes bailar, cantar y lo mejor de todo divertirte</p>
         </b-carousel-slide>
-        <b-carousel-slide caption="Second Slide" img-src="https://picsum.photos/1024/480/?image=12"></b-carousel-slide>
+        <b-carousel-slide caption="Second Slide" :img-src="require('../assets/parqueo2.png')"></b-carousel-slide>
         <b-carousel-slide caption="Third Slide" img-src="https://picsum.photos/1024/480/?image=22"></b-carousel-slide>
       </b-carousel>
     </div>

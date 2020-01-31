@@ -2,7 +2,7 @@
   <div>
     <div>
       <!-- Header -->
-      <header class="bg-dark py-5 mb-5 texto1" >
+      <header class="bg-dark py-5 mb-5 texto1">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
@@ -59,59 +59,68 @@
 
         <div class="container">
           <div class="card-columns">
-                <div class="card" >
-                                <div >
-                                    <b-button v-b-modal.modal-1 ><img src="../assets/mangos.jpg" class="card-img-top"/></b-button>
-                                    <b-modal id="modal-1" hide-footer hide-header>
-                                      <img src="../assets/mangos.jpg" class="img-fluid rounded" />
-                                    </b-modal>
-                                </div>
-                </div>
+            <div class="card">
+              <div>
+                <b-button v-b-modal.modal-1>
+                  <img src="../assets/mangos.jpg" class="card-img-top" />
+                </b-button>
+                <b-modal id="modal-1" hide-footer hide-header>
+                  <img src="../assets/mangos.jpg" class="img-fluid rounded" />
+                </b-modal>
+              </div>
+            </div>
           </div>
         </div>
         <!-- /.row -->
       </div>
       <!-- /.container -->
     </div>
-    <div class="gallery fondo">
-    <b-container class="bv-example-row albun  ">
-  <b-row>
-    <b-col>
-        <img src="../assets/mandar_6.jpg">
-    </b-col>
-    <b-col>
-        <img src="../assets/mandar_8.jpg" class="mb-4">
-    </b-col>
-  </b-row>
-  <b-row>
-    <b-col>
-        <img src="../assets/mandar_11.jpg" alt="">
-    </b-col>
-    <b-col>
-        <img src="../assets/manda_1.jpg" alt="">
-    </b-col>
-    <b-col>
-        <img src="../assets/manda_4.jpg" alt="">
-        <img src="../assets/mandar_3.jpg" class="mt-5">
-    </b-col>
-  </b-row>
-</b-container>
-</div>
+    <div class="gallery4 fondo4">
+      <b-container class="bv-example-row albun">
+        <b-row>
+          <b-col>
+            <img src="../assets/mangos0.jpg" height="600px" />
+          </b-col>
+          <b-col>
+            <img src="../assets/mangos2.jpg" alt />
+            <img src="../assets/mangos5.jpg" class="mt-3"/>
+          </b-col>
+        </b-row>
+
+        <b-row class="mt-5">
+          <b-col>
+            <img src="../assets/mangos8.jpg" alt/>
+            <img src="../assets/mangos6.jpg" class="mt-3" />
+          </b-col>
+          <b-col>
+            <img src="../assets/mangos4.jpg" height="610px" />
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  data (){
-    return {
-      
+  data() {
+    return {};
   }
-},
-
-}
+};
 </script>
 <style>
 .texto1 {
-  background: linear-gradient(#2c778d, #4ec0e1 )
+  background: linear-gradient(#2c778d, #4ec0e1);
+}
+.fondo4 {
+  background: radial-gradient(#2c778d, #1c375c, #4ec0e1);
+}
+.gallery4 {
+  display: grid;
+  grid-auto-columns: auto auto;
+}
+.gallery4 img {
+  width: 90%;
+  border-radius: 20px;
 }
 </style>

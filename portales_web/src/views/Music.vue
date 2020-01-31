@@ -46,41 +46,31 @@
         </address>
       </div>
     </div>
-    <!-- /.row -->
-
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="../assets/music_hall.png" alt="" style="width:350px; height:200px;">
-          <div class="card-body">
-            <h4 class="card-title">Card title </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="../assets/music_hall.png" alt="" style="width:350px; height:200px;">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="../assets/music_hall.png" alt="" style="width:350px; height:200px;">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-
   </div>
-  <!-- /.container -->
+  <div class="fondo5 gallery5">
+      <b-container class="bv-example-row albun5">
+  <b-row>
+    <b-col>
+      <img src="../assets/music0.jpg" alt="">
+    </b-col>
+    <b-col>
+      <img src="../assets/music5.jpg" alt="">
+    </b-col>
+  </b-row>
+
+  <b-row class="mt-5">
+    <b-col>
+      <img src="../assets/music3.jpg" alt="">
+    </b-col>
+    <b-col>
+      <img src="../assets/music4.jpg" alt="">
+    </b-col>
+    <b-col>
+      <img src="../assets/music6.jpg" alt="">
+    </b-col>
+  </b-row>
+</b-container>
+    </div>
   </div>
 </template>
 
@@ -93,5 +83,20 @@ export default {
 <style>
 .texto1 {
   background: linear-gradient(#2c778d, #4ec0e1 )
+}
+.fondo5{
+  background: linear-gradient(#2c778d, #4ec0e1)
+}
+.gallery5{
+  display: grid;
+  grid-auto-columns: auto auto auto
+}
+.gallery5 img{
+  width: 100%;
+  border-radius: 10%
+}
+.albun5{
+  margin:90px;
+  padding: 90px
 }
 </style>

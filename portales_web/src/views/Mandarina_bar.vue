@@ -115,6 +115,10 @@ export default {
 .fondo{
   background: radial-gradient(#4ec0e1, #1c375c,#151633)
 }
+.albun{
+  margin: 50px;
+  padding: 50px
+}
 
 
 </style>

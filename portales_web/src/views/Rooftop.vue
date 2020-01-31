@@ -73,13 +73,33 @@
                   <b-dropdown-item>Domingo:    CERRADO</b-dropdown-item>
                 </b-nav-item-dropdown>
                 </b-nav>
-              
             </div>
           </div>
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
+      <div class="gallery3 fondo3">
+    <b-container class="bv-example-row albun3  ">
+      <b-row>
+    <b-col>
+        <img src="../assets/rooftop_1.jpg" alt="">
+    </b-col>
+    <b-col>
+        <img src="../assets/rooftop_11.jpg" alt="">
+    </b-col>
+    <b-col>
+        <img src="../assets/rooftop_3.jpg" alt="">
+    </b-col>
+  </b-row>
+  <b-row>
+    <b-col>
+        <img src="../assets/rooftop_4.jpg" class="mt-5" height="420px">
+    </b-col>
+    <b-col>
+        <img src="../assets/rooftop_9.jpg" class="mt-5">
+    </b-col>
+  </b-row>
+</b-container>
+</div>
     </div>
   </div>
 </template>
@@ -89,4 +109,19 @@ export default {};
 </script>
 
 <style>
+.albun3{
+  margin: 90px;
+  padding:5px
+}
+.gallery3{
+    display:grid;
+    grid-auto-columns: auto auto auto;
+}
+.gallery3 img{
+    width:100%;
+    border-radius: 20px
+}
+.fondo3{
+  background: radial-gradient(#4ec0e1, #1c375c,#151633)
+}
 </style>

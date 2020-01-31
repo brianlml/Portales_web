@@ -9,7 +9,7 @@
  <b-container>
   <b-row class="bv-example-row">
     <b-col>
-        <img src="../assets/fig_8.jpg" alt="" class="djs">
+        <img src="../assets/fig_8.jpg" alt="" class="djs0">
     </b-col>
     <b-col>
         <div class="colores">
@@ -49,25 +49,28 @@ Excelente ubicación  para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
   </b-row>
 </b-container>
 </div>
-<div class="tarjeta">
-  <b-container class="bv-example-row">
+<div class="fondo0 gallery0">
+  <b-container class="bv-example-row albun0">
   <b-row>
-    <b-col cols="3">
-      <img src="../assets/figs_1.jpg" alt="" class="fotografia">
+    <b-col>
+      <img src="../assets/fig1.jpg" alt="">
     </b-col>
-    <b-col cols="3">
-      <img src="../assets/fig_2.jpg" alt="" class="fotografia">
-    </b-col>
-    <b-col cols="3">
-      <img src="../assets/fig_3.jpg" alt="" class="fotografia">
-    </b-col>
-    <b-col cols="3">
-      <img src="../assets/fig_4.jpg" alt="" class="fotografia">
+    <b-col>
+      <img src="../assets/fig2.jpg" alt="">
     </b-col>
   </b-row>
-  <p class="anuncio text-light">
-   ¡¡ AL MAL TIEMPO BUENA MUSICA !!
-  </p>
+
+  <b-row class="mt-5">
+    <b-col>
+      <img src="../assets/fig3.jpg" alt="">
+    </b-col>
+    <b-col>
+      <img src="../assets/fig4.jpg" alt="">
+    </b-col>
+    <b-col>
+      <img src="../assets/fig_2.jpg" alt="">
+    </b-col>
+  </b-row>
 </b-container>
 </div>
 </div>
@@ -80,10 +83,6 @@ export default {
 </script>
 
 <style>
-.tarjeta{
-background: linear-gradient(#22e105, #747474);
-margin:10px
-}
 .fotografia{
   margin:10px;
   height: 200px;
@@ -99,6 +98,26 @@ margin:10px
 }
 .texto1 {
   background: linear-gradient(#2c778d, #4ec0e1 )
+}
+.fondo0{
+  background: linear-gradient(#2c778d, #4ec0e1 )
+}
+.gallery0{
+ display: grid;
+ grid-auto-columns: auto auto auto
+}
+.gallery0 img{
+  width: 100%;
+  border-radius: 10%
+}
+.albun0{
+  margin:100px
+}
+.djs0{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
 }
 
 
