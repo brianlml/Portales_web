@@ -2,7 +2,7 @@
   <div>
     <div class="principal">
        <!-- Header -->
-      <header class="bg-dark text-center py-5 mb-4 texto">
+      <header class="bg-dark text-center py-5 mb-5 texto">
         <div class="container">
           <h1 class="font-weight-light text-white">LUGARES PARA DISFRUTAR </h1>
         </div>
@@ -122,4 +122,8 @@ export default {
       background-color: #2c778d;
 
 }
+/** .card border-0 shadow :hover{
+  background-color: #2c778d
+}*/
+
 </style>

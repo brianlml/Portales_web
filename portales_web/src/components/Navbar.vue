@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark bg-dark fixed-top texto">
+    <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark bg-dark fixed-top texto py-3">
       <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
