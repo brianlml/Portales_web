@@ -21,7 +21,7 @@
     <b-col>
         <div class="colores">
   <!-- Page Content -->
-  <div class="container">
+  <div class="container py-5">
     <div class="row">
       <div class="col-md-8 mb-5">
         <h2>Acerca de Mandarina Bar.</h2>
@@ -45,6 +45,19 @@
           <abbr title="Email">E: </abbr>
           <a href="mailto:#">productora.psyko@gmail.com</a>
         </address>
+            <div>
+              <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
+              <b-modal id="modal-1" title="Mandarina bar" hide-footer>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaBarCocha%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                width="470" 
+                height="300" 
+                style="border:none;overflow:hidden" 
+                scrolling="no" 
+                frameborder="0" 
+                allowTransparency="true" 
+                allow="encrypted-media"></iframe>
+              </b-modal>
+            </div>
       </div>
     </div>
   </div>
@@ -76,7 +89,8 @@
   </b-row>
 </b-container>
 </div>
-  </div>
+
+</div>
 </template>
 
 <script>

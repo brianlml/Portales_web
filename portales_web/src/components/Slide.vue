@@ -2,7 +2,7 @@
   <div>
     <div class="principal">
        <!-- Header -->
-      <header class="bg-dark text-center py-5 mb-4 texto">
+      <header class="bg-dark text-center py-5 mb-5 texto">
         <div class="container">
           <h1 class="font-weight-light text-white">LUGARES PARA DISFRUTAR </h1>
         </div>

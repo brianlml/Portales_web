@@ -1,14 +1,15 @@
 <template>
   <div>
-    <div>
+    <div class="mt-4">
       <b-carousel
         id="carousel-fade"
         style="text-shadow: 0px 0px 2px #000"
         controls
         indicators
         fade
-        img-width="1024"
-        img-height="480"
+        img-width='1024'
+        img-height='480'
+       
       >
         <b-carousel-slide
           caption="Pasaje Portales"
