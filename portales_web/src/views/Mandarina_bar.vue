@@ -1,12 +1,12 @@
 <template>
 <div>
             <!--Header-->
-            <header class="py-5 mb-0 texto1">
+            <header class="py-5 mb-0 titulo">
                     <div class="container h-100">
                       <div class="row h-100 align-items-center">
                         <div class="col-lg-12">
                           <h1 class="display-4 text-light mt-5 mb-2">
-                            <img src="../assets/logotipo4.png" alt="">
+                            <img src="../assets/logobar0.png" alt="">
                           </h1>
                           <p class="lead mb-5 text-white-50">disfruta de la excelente musica con la variedad de bebidas.</p>
                         </div>
@@ -14,7 +14,7 @@
                     </div>
             </header>
             <!--/Header-->
-        <div class="bar">
+        <div class="tarjeta">
               <b-container>
                     <b-row class="bv-example-row">
                               <b-col>
@@ -29,7 +29,7 @@
                                                                   <h2>Acerca de Mandarina Bar.</h2>
                                                                   <hr>
                                                                   <p>2007, NACE MANDARINA BAR para traer a Cochabamba la cultura de los grandes bares del mundo. Un lugar para ver y ser visto, un proyecto enfocado en comida, piqueos, variedad de bebidas, música variada.</p>
-                                                                  <p>El bar se destaca por el servicio, y las diferentes tematicas de entre semana en especial las noches brasileras. </p>
+                                                                  <p>Con el personal capacitado para ofrecer la mejor atención a nuestros comensales.</p>
                                                               </div>
                                                               <div class="col-md-4 mb-5">
                                                                     <h2>Contacto</h2>
@@ -89,7 +89,7 @@
               </b-container>
         </div>
   <div class="gallery fondo">
-        <b-container class="bv-example-row albun  ">
+        <b-container class="bv-example-row albun">
                     <b-row>
                           <b-col>
                               <img src="../assets/mandabar_1.jpg">
@@ -122,20 +122,20 @@ export default {
 </script>
 
 <style>
-.portada{
-  margin: 5px ;
-  padding: 7px;
-  text-align: center
+.titulo{
+  background: linear-gradient(#2c778d, #1c375c,#151633)
+}
+.tarjeta{
+  background: linear-gradient(#151633,#4ec0e1);
+}
+.fondo{
+  background: linear-gradient(#4ec0e1,#151633)
 }
 .dj{
   height: 400px;
   width: 500px;
   margin: 50px;
   border-radius: 30px
-}
-
-.bar{
-  background: linear-gradient(#2c778d,#1c375c)
 }
 .colores{
   color:#eef3d8
@@ -148,15 +148,8 @@ export default {
     width:100%;
     border-radius: 20px
 }
-.fondo{
-  background: radial-gradient(#4ec0e1, #1c375c,#151633)
-}
 .albun{
   margin: 50px;
   padding: 50px
 }
-.texto1 {
-  background: linear-gradient(#2c778d, #4ec0e1);
-}
-
 </style>

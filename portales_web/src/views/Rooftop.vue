@@ -2,7 +2,7 @@
 <div>
     <div>
                 <!-- Header -->
-                <header class="bg-dark mt-5 py-5 mb-5 texto1">
+                <header class="mt-5 py-5 titulo3">
                         <div class="container h-100">
                             <div class="row h-100 align-items-center">
                                 <div class="col-lg-12">
@@ -14,16 +14,23 @@
                 </header>
                 <!--/Header-->
               <!-- Page Content -->
-              <div class="container">
-                  <div class="row">
-                              <div class="col-md-8 mb-5">
+              <div class="tarjeta3">
+                  <div class=" container row">
+                    <b-col>
+                      <img src="../assets/rooftop_5.jpg" alt="" class="dj3">
+                    </b-col>
+                    <b-col class="mt-4">
+                              <div>
                                       <h2>Acerca de 410 Rooftop</h2>
                                       <hr />
-                                      <p>Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+                                      <p>¡Disfrutar una noche de fiesta con el buen clima en Cochabamba es posible! RoofTop una discoteca que esta pensada para aquellos que quieran salir y disfrutar de una copa en la comodidad de nuestros ambientes en la terraza.</p>
+                                      <p>El mejor ambiente exclusivo y elegante, donde puedes disfrutar del paisaje nocturno de nuestras bellisimas montañas.</p>
                                     <div>
                                     </div><!--/row-->
                               </div>
-                                        <div class="col-md-4 mb-5">
+                              </b-col>
+                              <b-col class="mt-4">
+                                        <div>
                                               <h2>Contacto</h2>
                                               <hr />
                                               <address>
@@ -77,6 +84,7 @@
                                                   </b-modal>
                                           </div>
                                         </div>
+                                        </b-col>
                   </div><!--/row-->
               </div>
                                   <div class="gallery3 fondo3">
@@ -94,10 +102,10 @@
                                                               </b-row>
                                                               <b-row>
                                                                   <b-col>
-                                                                    <img src="../assets/rooftop_4.jpg" class="mt-5" height="420px">
+                                                                    <img src="../assets/rooftop4.jpg" class="mt-5" height="420px">
                                                                   </b-col>
                                                                   <b-col>
-                                                                    <img src="../assets/rooftop_9.jpg" class="mt-5">
+                                                                    <img src="../assets/rooftop9.jpg" class="mt-5">
                                                                   </b-col>
                                                               </b-row>
                                               </b-container>
@@ -111,6 +119,21 @@ export default {};
 </script>
 
 <style>
+.titulo3{
+  background: linear-gradient(#2c778d,#8092a7,#dfd46d)
+}
+.tarjeta3{
+  background: linear-gradient(#dfd46d,#f9e4b7,#4ec0e1)
+}
+.fondo3{
+  background: linear-gradient(175deg,#4ec0e1,#f9e4b7,#2c778d,#1f2747)
+}
+.dj3{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
+}
 .albun3{
   margin: 90px;
   padding:5px
@@ -122,8 +145,5 @@ export default {};
 .gallery3 img{
     width:100%;
     border-radius: 20px
-}
-.fondo3{
-  background: radial-gradient(#4ec0e1, #1c375c,#151633)
 }
 </style>

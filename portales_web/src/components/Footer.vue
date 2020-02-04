@@ -11,7 +11,7 @@
                     Pasaje Portales
                     <span></span>
                   </h5>
-                  <p>About the company, little discription will goes here..</p>
+                  <p>Si estas dispuesto a salir de fiesta por la ciudad de Cochabamba, has de saber que las mejores discotecas, karaokes y bares que han ganado popularidad en los ultimos años están en el Pasaje Portales.</p>
                 </div>
               </div>
 
@@ -82,7 +82,7 @@
               <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="widget no-box">
                   <h5 class="widget-title">
-                    Contáctenos
+                    Desarrolladores
                     <span></span>
                   </h5>
 

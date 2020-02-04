@@ -18,7 +18,7 @@
                           <p class="text-center">Aqui puedes bailar, cantar y lo mejor de todo divertirte</p>
                           </b-carousel-slide>
                           <b-carousel-slide caption="Second Slide" :img-src="require('../assets/parqueo2.png')"></b-carousel-slide>
-                          <b-carousel-slide caption="Third Slide" :img-src="require('../assets/pasaje/entrada_4.jpeg')"></b-carousel-slide>
+                          <b-carousel-slide caption="Third Slide" :img-src="require('../assets/pasaj3.png')"></b-carousel-slide>
               </b-carousel>
       </div>
     <Slide/>
