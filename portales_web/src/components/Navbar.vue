@@ -1,32 +1,26 @@
 <template>
   <div>
-    <div>
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark bg-dark fixed-top texto py-3">
-      <button
-        class="navbar-toggler navbar-toggler-right"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/"><img src="../assets/icons/inicio.png" width="30" height="30"></router-link>
-          </li>
-        </ul>
-        <router-link class="navbar-brand" to="/">Pasaje Portales</router-link>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/lugares"><img src="../assets/icons/lugares.png" width="30" height="30"></router-link>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    </div>
+   <div>
+      <b-navbar id="navbar" toggleable="md" type="dark" variant="dark" class="fixed-top texto">
+      <b-navbar-brand class="d-md-none">
+      <router-link to="/"><h5>Pasaje Portales</h5></router-link>
+      </b-navbar-brand>
+      <b-navbar-toggle target="collapse-area"></b-navbar-toggle>
+      <b-collapse id="collapse-area" is-nav>
+        <b-navbar-nav>
+          <b-nav-item to="/"><img src="../assets/icons/inicio.png" width="30" height="30"></b-nav-item>
+        </b-navbar-nav>
+        <b-navbar-nav class="d-none d-md-block mx-auto">
+          <b-nav-text>
+           <router-link to="/"><h3 style="color:#fff;">Pasaje Portales</h3></router-link>
+          </b-nav-text>
+        </b-navbar-nav>
+        <b-navbar-nav>
+          <b-nav-item to="/lugares"><img src="../assets/icons/lugares.png" width="30" height="30"></b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+   </div>
   </div>
 </template>
 <script>
