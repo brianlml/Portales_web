@@ -1,8 +1,9 @@
 <template>
+<div>
   <div>
     <div>
       <!-- Header -->
-      <header class="bg-dark mt-5 py-5 mb-5 texto1">
+      <header class="bg-dark mt-5 py-5 mb-5">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
@@ -12,53 +13,97 @@
           </div>
         </div>
       </header>
-    </div>
+      <!--/Header-->
+  </div>
 
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mb-5">
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <b-col>
+        <img src="../assets/avalon0.jpg" alt="" class="dj4">
+      </b-col>
+      <b-col>
+      <div>
           <h2>Acerca de Avalon</h2>
-          <hr />
-          <p>Quieres disfrutar de los mejores shows de musica en vivo, la discoteca perfecta es AVALON. El sistema de sonido resulta impactante sin mencionar la fabulosa y colorida iluminación. </p>
+          <hr>
+          <p>Quieres disfrutar de los mejores shows de musica en vivo, la discoteca perfecta es AVALON. El sistema de sonido resulta impactante sin mencionar la fabulosa y colorida iluminación.</p>
           <p>Una de las mejores discotecas de Cochabamba, visitado por locales y turistas.</p>
-          </div>
-        <div class="col-md-4 mb-5">
-          <h2>Contacto</h2>
-          <hr />
-          <address>
-            <strong>Start Bootstrap</strong>
-            <br />3481 Melrose Place
-            <br />Beverly Hills, CA 90210
-            <br />
-          </address>
-          <address>
-            <abbr>P:</abbr>
-            79793294
-            <br />
-            <abbr>E:</abbr>
-            <a href="mailto:#">productora.psyko@gmail.com</a>
-          </address>
-          <div>
-            <b-button v-b-modal.modal-1>Proximos Eventos</b-button>
-            <b-modal id="modal-1" title="Avalon" hide-footer>
-              <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Favaloncbba%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                width="470"
-                height="300"
-                style="border:none;overflow:hidden"
-                scrolling="no"
-                frameborder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-              ></iframe>
-            </b-modal>
-          </div>
-        </div>
       </div>
+      </b-col>
+      <b-col>
+        <div>
+            <h2>Contacto</h2>
+            <hr>
+                <address>
+                      <strong>Avalon</strong>
+                      <ul class="social-footer2">
+                        <li class>
+                          <a href="https://www.facebook.com/avaloncbba/" target="_blank" title="Facebook">
+                            <img
+                              alt="Facebook"
+                              width="30"
+                              height="30"
+                              src="../assets/icons/facebook.png"
+                            />
+                          </a>
+                        </li>
+                        Facebook
+                      </ul>
+                      <strong>Teléfono</strong>
+                      <ul class="social-footer2">
+                        <li class>
+                          <a href="https://www.facebook.com/pg/avaloncbba/about/?ref=page_internal" target="_blank" title="Teléfono">
+                            <img
+                              alt="Teléfono"
+                              width="30"
+                              height="30"
+                              src="../assets/icons/telefono.png"
+                            />
+                          </a>
+                        </li>
+                        76112700
+                      </ul>
+                      <strong>Horario</strong>
+                       <b-nav>
+                              <b-nav-item-dropdown
+                                id="my-nav-dropdown"
+                                text="Dias de atencion"
+                                toggle-class="nav-link-custom" 
+                                right
+                              >
+                                <b-dropdown-item>Lunes:      CERRADO</b-dropdown-item>
+                                <b-dropdown-item>Martes:     CERRADO</b-dropdown-item>
+                                <b-dropdown-item>Miercoles:  CERRADO</b-dropdown-item>
+                                <b-dropdown-item>Jueves:     CERRADO</b-dropdown-item>
+                                <b-dropdown-item>Viernes:    22:00-03:00</b-dropdown-item>
+                                <b-dropdown-item>Sabado:     22:00-03:00</b-dropdown-item>
+                                <b-dropdown-item>Domingo:    CERRADO</b-dropdown-item>
+                              </b-nav-item-dropdown>
+                       </b-nav>
+                </address>
+                <div>
+                    <h2>Eventos</h2>
+                    <hr>
+                      <b-button v-b-modal.modal-1>Click aquí</b-button>
+                        <b-modal id="modal-1" title="Avalon" hide-footer>
+                          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Favaloncbba%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                          width="470" 
+                          height="300" 
+                          style="border:none;overflow:hidden" 
+                          scrolling="no" 
+                          frameborder="0" 
+                          allowTransparency="true" 
+                          allow="encrypted-media"
+                          ></iframe>
+
+                        </b-modal>
+                </div>
+        </div>
+        </b-col>
     </div>
-    <div class="gallery2 fondo2">
-        <b-container class="bv-example-row albun2">
+  </div>
+  <div class="gallery4">
+        <b-container class="bv-example-row albun4">
           <b-row>
             <b-col>
               <img src="../assets/avalon_1.png" alt="">
@@ -74,12 +119,13 @@
               <img src="../assets/avalon_5.png" class="mt-5">
             </b-col>
             <b-col>
-              <img src="../assets/avalon_6.png" height="600px">
+              <img src="../assets/aval01.jpg" height="600">
             </b-col>
           </b-row>
         </b-container>
       </div>
-  </div>
+</div>
+</div>
 </template>
 
 <script>
@@ -87,19 +133,22 @@ export default {};
 </script>
 
 <style>
-.albun2 {
+.dj4{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
+}
+.albun4{
   margin: 100px;
   padding: 80px
 }
-.gallery2 {
+.gallery4{
   display: grid;
   grid-auto-columns: auto auto auto;
 }
-.gallery2 img {
+.gallery4 img {
   width: 100%;
   border-radius: 20px;
-}
-.fondo2 {
-  background: radial-gradient(#4ec0e1, #1c375c, #151633);
 }
 </style>
