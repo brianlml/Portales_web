@@ -1,34 +1,32 @@
 <template>
 <div>
               <!--Header-->
-              <header class="bg-dark mt-5 py-5 mb-0 texto1">
+              <header class="titulo0 mt-5 py-5 mb-0">
                 <div class="container h-100">
                   <img src="../assets/nuevoslogos/logotipo.png" />
                 </div>
               </header>
               <!--/Header-->
-      <div class="bar">
+      <div class="tarjeta0">
       <b-container>
             <b-row class="bv-example-row">
                   <b-col>
-                      <img src="../assets/fig_8.jpg" alt class="djs0" />
+                      <img src="../assets/fig_8.jpg" class="djs0" />
                   </b-col>
-                  <b-col>
-                        <div class="colores">
-                            <!-- Page Content -->
-                            <div class="container">
-                                <div class="row">
-                                      <div class="col-md-8 mb-5">
+                  <b-col class="mt-5">
+                                      <div>
                                             <h2>Acerca de FIGS.</h2>
                                             <hr />
                                             <p>
                                             ¡Figs ya esta en Cochabamba, la mejor manera para salir de fiesta!
                                             Ambientes exclusivos de calidad para disfrutar de un buen FIN DE SEMANA.
-                                            Excelente ubicación para comenzar la noche (Av. Pando, Pasaje Ovidio Suárez).
+                                            Excelente ubicación para comenzar la noche.
                                             </p>
-                                            <p>Eso no es todo, en Figs disfrutaras la variedad de musica para bailar y sentir el ritmo en todo el cuerpo además de las distintas temáticas que se preparan.</p>
+                                            <p>Eso no es todo, en Figs disfrutaras la variedad de musica para bailar y sentir el ritmo en todo el cuerpo además de las distintas temáticas preparadas.</p>
                                       </div>
-                                    <div class="col-md-4 mb-5">
+                  </b-col>
+                  <b-col class="mt-5">
+                                    <div>
                                           <h2>Contacto</h2>
                                           <hr />
                                         <address>
@@ -79,14 +77,11 @@
                                               </b-modal>
                                         </div>
                                     </div>
-                                </div><!--/row-->
-                            </div><!--/Page Content-->
-                        </div>
                   </b-col>
-            </b-row>
+          </b-row>
       </b-container>
     </div>
-    <div class="fondo0 gallery0">
+    <div class="gallery0 fondo0">
           <b-container class="bv-example-row albun0">
                     <b-row>
                           <b-col>
@@ -116,24 +111,17 @@ export default {};
 </script>
 
 <style>
-.fotografia {
-  margin: 10px;
-  height: 200px;
-  width: 300px;
-  border-radius: 50%;
+.titulo0{
+  background: linear-gradient(#2c778d,#1c375c);
 }
-.anuncio {
-  margin: 20px;
-  padding: 10px;
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 40px;
-}
-.texto1 {
-  background: linear-gradient(#2c778d, #4ec0e1);
+.tarjeta0{
+  background: linear-gradient(#1c375c 03%,#4ec0e1)
 }
 .fondo0 {
-  background: linear-gradient(#2c778d, #4ec0e1);
+  background: linear-gradient(180deg,#4ec0e1,#2c778d,#1f2747);
+}
+.letras0{
+  background: #eef3d8
 }
 .gallery0 {
   display: grid;
@@ -149,6 +137,7 @@ export default {};
 .djs0 {
   height: 400px;
   width: 500px;
+  margin:50px;
   border-radius: 30px;
 }
 </style>

@@ -16,15 +16,19 @@
         <div class="container">
 
               <div class="row">
-                    <div class="col-md-8 mb-5">
+                <b-col>
+                  <img src="../assets/musi7.jpg" alt="" class="dj5">
+                </b-col>
+                <b-col>
+                    <div>
                           <h2>Acerca de Music Hall</h2>
                           <hr>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-                          <h2>Eventos proximos</h2>
-                          <hr />
+                          <p>¿Existe algo mejor que cantar para disfrutar la música en toda su totalidad?, MUSIC HALL ofrece su escenario no solo para las presentaciónes de grupos y artistas invitados, tú puedes demostrar tu artista interior en el Karaoke.</p>
+                          <p>Un comodo ambiente con los mejores tragos y bastante espacio para disfrutar junto a tus amigos.</p>
                     </div>
-                    <div class="col-md-4 mb-5">
+                    </b-col>
+                    <b-col>
+                    <div>
                         <h2>Contacto</h2>
                         <hr>
                         <address>
@@ -74,6 +78,7 @@
                               </b-modal>
                           </div>
                     </div>
+                    </b-col>
               </div><!--/row-->
         </div><!--/Page Content-->
               <div class="fondo5 gallery5">
@@ -111,6 +116,12 @@ export default {
 <style>
 .texto1 {
   background: linear-gradient(#2c778d, #4ec0e1 )
+}
+.dj5{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
 }
 .fondo5{
   background: linear-gradient(#2c778d, #4ec0e1)

@@ -17,13 +17,19 @@
                 <!-- Page Content -->
                 <div class="container">
                         <div class="row">
-                                      <div class="col-md-8 mb-5">
+                          <b-col>
+                            <img src="../assets/mang0.jpg" alt="" class="dj4">
+                          </b-col>
+                          <b-col>
+                                      <div>
                                         <h2>Acerca de Mangos bar</h2>
                                         <hr />
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+                                        <p>Quieres divertirte de manera mas casual sin tanto protocolo y formalidades, MANGOS es la mejor opción donde encuentras el ambiente tropical y casual para disfrutar tu espacio de ocio junto a tus amigos.</p>
+                                        <p>Un ambiente comodo con los tragos perfectos, con presentación de musicos y bailarines que te haran disfrutar con su espectacular show.</p>
                                       </div>
-                                      <div class="col-md-4 mb-5">
+                                      </b-col>
+                                      <b-col>
+                                      <div>
                                         <h2>Contacto</h2>
                                         <hr />
                                         <address>
@@ -75,13 +81,14 @@
                                           </b-modal>
                                         </div>
                                       </div>
+                                      </b-col>
                         </div>
                         <!-- /.row -->
                 </div>
                 <!-- /.container -->
             </div>
             <div class="gallery4 fondo4">
-                    <b-container class="bv-example-row albun">
+                    <b-container class="bv-example-row albun4">
                           <b-row>
                               <b-col>
                                 <img src="../assets/mangos0.jpg" height="600px" />
@@ -117,8 +124,18 @@ export default {
 .texto1 {
   background: linear-gradient(#2c778d, #4ec0e1);
 }
+.dj4{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
+}
 .fondo4 {
   background: radial-gradient(#2c778d, #1c375c, #4ec0e1);
+}
+.albun4 {
+  margin: 100px;
+  padding: 80px
 }
 .gallery4 {
   display: grid;

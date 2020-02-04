@@ -1,8 +1,9 @@
 <template>
-<div class="fondo2">
+<div>
   <div>
+    <div>
       <!-- Header -->
-      <header class="bg-dark mt-5 py-5 mb-5 texto1">
+      <header class="bg-dark mt-5 py-5 mb-5">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
@@ -17,15 +18,20 @@
 
   <!-- Page Content -->
   <div class="container">
-
     <div class="row">
-      <div class="col-md-8 mb-5">
+      <b-col>
+        <img src="../assets/avalon0.jpg" alt="" class="dj4">
+      </b-col>
+      <b-col>
+      <div>
           <h2>Acerca de Avalon</h2>
           <hr>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, magni.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab, vitae magnam aut nesciunt illo officiis possimus nihil quibusdam alias?</p>
+          <p>Quieres disfrutar de los mejores shows de musica en vivo, la discoteca perfecta es AVALON. El sistema de sonido resulta impactante sin mencionar la fabulosa y colorida iluminación.</p>
+          <p>Una de las mejores discotecas de Cochabamba, visitado por locales y turistas.</p>
       </div>
-        <div class="col-md-4 mb-5">
+      </b-col>
+      <b-col>
+        <div>
             <h2>Contacto</h2>
             <hr>
                 <address>
@@ -93,42 +99,32 @@
                         </b-modal>
                 </div>
         </div>
-    </div><!--/.row-->
-    <!-- /.row -->
+        </b-col>
+    </div>
+  </div>
+  <div class="gallery4">
+        <b-container class="bv-example-row albun4">
+          <b-row>
+            <b-col>
+              <img src="../assets/avalon_1.png" alt="">
+            </b-col>
+            <b-col>
+              <img src="../assets/avalon_2.png" alt="">
+            </b-col>
+          </b-row>
 
-    <div class="row">
-              <div class="col-md-4 mb-5">
-              </div>
-                  <div class="gallery2 fondo2">
-                              <b-container class="bv-example-row albun2">
-                                        <b-row align-h="start">
-                                              <b-col cols="4">
-                                                <img src="../assets/rooftop_4.jpg" alt="">
-                                              </b-col>
-                                              <b-col cols="4">
-                                                <img src="../assets/rooftop_3.jpg" alt="">
-                                              </b-col>
-                                        </b-row>
-                                        <b-row align-h="center mt-5">
-                                              <b-col cols="4">
-                                                <img src="../assets/rooftop_6.jpg" alt="">
-                                              </b-col>
-                                              <b-col cols="4">
-                                                <img src="../assets/rooftop_9.jpg" alt="">
-                                              </b-col>
-                                        </b-row>
-                                        <b-row align-h="end mt-5">
-                                              <b-col cols="4">
-                                                <img src="../assets/rooftop_1.jpg" alt="">
-                                              </b-col>
-                                              <b-col cols="4">
-                                                <img src="../assets/rooftop_11.jpg" alt="">
-                                              </b-col>
-                                        </b-row>
-                              </b-container>
-                  </div>
-    </div><!--/row-->
-  </div><!--/Container-->
+          <b-row class="mt-5">
+            <b-col>
+              <img src="../assets/avalon_3.png" alt="">
+              <img src="../assets/avalon_5.png" class="mt-5">
+            </b-col>
+            <b-col>
+              <img src="../assets/aval01.jpg" height="600">
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+</div>
 </div>
 </template>
 
@@ -137,19 +133,22 @@ export default {};
 </script>
 
 <style>
-.albun2 {
-  margin: 100px;
-
+.dj4{
+  height: 400px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 30px
 }
-.gallery2 {
+.albun4{
+  margin: 100px;
+  padding: 80px
+}
+.gallery4{
   display: grid;
   grid-auto-columns: auto auto auto;
 }
-.gallery2 img {
+.gallery4 img {
   width: 100%;
   border-radius: 20px;
-}
-.fondo2 {
-  background: radial-gradient(#4ec0e1, #1c375c, #151633);
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-<div class="mt mr my ml">
+<div>
   <!--/Header-->    
-    <header class="py-5 mb-0 texto1">
+    <header class="py-5 mb-0 titulo2">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-lg-12">
@@ -14,13 +14,13 @@
       </div>
     </header>
   <!--/Header-->
-    <div class="bar">
+    <div class="tarjeta2">
         <b-container>
             <b-row class="bv-example-row">
                   <b-col>
-                      <img src="../assets/mandar_2.jpg" alt="" class="djs">
+                      <img src="../assets/mandar_2.jpg" alt="" class="djs2">
                   </b-col>
-                  <b-col class="colores">
+                  <b-col>
                                 <div>
                                           <!-- Page Content -->
                                           <div class="container">
@@ -30,7 +30,6 @@
                                                       <hr>
                                                       <p>MANDARINA LOUNGE desde su inicio el 13 de diciembre de 2003 ha revolucionado el concepto de club en nuestro medio, logrando una excelente combinación en diseño, arquitectura, servicio sofisticado, iluminación y sonido. 
                                                       Durante estos más de 15 años MANDARINA se ha consolidado como una tradición en las noches cochabambinas.</p>
-                                                      <p>Ven y siéntete libre, la diversión no tiene límites.</p>
                                                       </div>
                                                       <div class="col-md-4 mb-5">
                                                                 <h2>Contacto</h2>
@@ -91,7 +90,7 @@
             </b-row>
         </b-container>
     </div>
-    <div class="gallery fondo">
+    <div class="gallery2 fondo2">
               <b-container class="bv-example-row albun  ">
                     <b-row>
                       <b-col>
@@ -125,32 +124,32 @@ export default {
 </script>
 
 <style>
-.presentacion{
-  background: linear-gradient(#4ec0e1,#1c375c,#151633)
+.titulo2{
+  background: linear-gradient(#2c778d 30%,#cc672a)
 }
-.albun{
+.tarjeta2{
+background: linear-gradient(#cc672a 20%,#2c778d,#151633)
+}
+.fondo2{
+  background: linear-gradient(180deg,#151633,#2c778d,#4ec0e1,#151633)
+}
+.albun2{
     margin: 90px;
     padding:60px;
 }
-.gallery{
+.gallery2{
     display:grid;
     grid-auto-columns: auto auto auto;
 }
-.gallery img{
+.gallery2 img{
     width:100%;
     border-radius: 20px
 }
-.fondo{
-  background: radial-gradient(#4ec0e1, #1c375c,#151633)
-}
-.djs{
+.djs2{
   height: 400px;
   width: 500px;
+  margin: 50px;
   border-radius: 30px
-
-}
-.texto1 {
-  background: linear-gradient(#2c778d, #4ec0e1 )
 }
 
 </style>
