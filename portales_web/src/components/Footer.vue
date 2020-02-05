@@ -67,6 +67,7 @@
                     Ubicación
                     <span></span>
                   </h5>
+                  <div class="responsive">
                   <iframe
                     class="map"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d475.9698163765103!2d-66.15161589903165!3d-17.375348515508797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbo!4v1579287589735!5m2!1ses-419!2sbo"
@@ -76,6 +77,7 @@
                     style="border:0;"
                     allowfullscreen
                   ></iframe>
+                  </div>
                 </div>
               </div>
 
@@ -117,6 +119,19 @@ export default {};
 </script>
 
 <style>
+.responsive {
+  width:100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
 
 /* Main Footer */
 footer .main-footer {
