@@ -1,7 +1,7 @@
 <template>
   <div>
    <div>
-      <b-navbar id="navbar" toggleable="md" type="dark" variant="dark" class="fixed-top texto">
+      <b-navbar id="navbar" toggleable="md xs" type="dark" variant="dark" class="fixed-top texto">
       <b-navbar-brand class="d-md-none">
       <router-link to="/"><h5>Pasaje Portales</h5></router-link>
       </b-navbar-brand>

@@ -1,39 +1,31 @@
 <template>
 <div>
             <!--Header-->
-            <header class="py-5 mb-0 titulo">
-                    <div class="container h-100">
-                      <div class="row h-100 align-items-center">
-                        <div class="col-lg-12">
-                          <h1 class="display-4 text-light mt-5 mb-2">
-                            <img src="../assets/logobar0.png" alt="">
-                          </h1>
-                          <p class="lead mb-5 text-white-50">disfruta de la excelente musica con la variedad de bebidas.</p>
-                        </div>
-                      </div>
-                    </div>
-            </header>
+            <b-container class="py-4 titulo" fluid>
+              <b-row>
+                <b-col class="pt-4" cols="12"><b-img :src="require('../assets/logobar0.png')" class="mt-4 py-4 w-40" fluid></b-img></b-col>
+              </b-row>
+            </b-container>
             <!--/Header-->
         <div class="tarjeta">
               <b-container>
-                    <b-row class="bv-example-row">
+                    <b-row class="">
                               <b-col>
-                                  <img src="../assets/mandabar_5.jpg" alt="" class="dj">
+                                  <b-img :src="require('../assets/mandabar_5.jpg')" class="pt-3 dj w-100 mt-2" fluid></b-img>
                               </b-col>
-                              <b-col>
-                                  <div class="colores">
-                                            <!-- Page Content -->
-                                            <div class="container py-5">
-                                                        <div class="row">
-                                                              <div class="col-md-8 mb-5">
-                                                                  <h2>Acerca de Mandarina Bar.</h2>
-                                                                  <hr>
-                                                                  <p>2007, NACE MANDARINA BAR para traer a Cochabamba la cultura de los grandes bares del mundo. Un lugar para ver y ser visto, un proyecto enfocado en comida, piqueos, variedad de bebidas, música variada.</p>
-                                                                  <p>Con el personal capacitado para ofrecer la mejor atención a nuestros comensales.</p>
-                                                              </div>
-                                                              <div class="col-md-4 mb-5">
-                                                                    <h2>Contacto</h2>
-                                                                    <hr>
+                              <b-col class="ml-auto mt-4 colores" cols="12" lg="4">
+                                     <!-- Page Content -->
+                                            <div>
+                                                   <h2>Acerca de Mandarina Bar.</h2>
+                                                   <hr>
+                                                   <p>2007, NACE MANDARINA BAR para traer a Cochabamba la cultura de los grandes bares del mundo. Un lugar para ver y ser visto, un proyecto enfocado en comida, piqueos, variedad de bebidas, música variada.</p>
+                                                   <p>Con el personal capacitado para ofrecer la mejor atención a nuestros comensales.</p>
+                                            </div>
+                              </b-col>
+                              <b-col class="mt-4 ml-auto colores">
+                                                <div>
+                                                    <h2>Contacto</h2>
+                                                    <hr>
                                                                     <address>
                                                                               <strong>Mandarina Bar</strong>
                                                                                   <ul class="social-footer2">
@@ -68,45 +60,46 @@
                                                                           <h2>Eventos</h2>
                                                                           <hr>
                                                                           <b-button v-b-modal.modal-1>Click aquí</b-button>
-                                                                          <b-modal id="modal-1" title="Mandarina bar" hide-footer>
-                                                                              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaBarCocha%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                                                                              width="470" 
-                                                                              height="300" 
-                                                                              style="border:none;overflow:hidden" 
-                                                                              scrolling="no" 
-                                                                              frameborder="0" 
-                                                                              allowTransparency="true" 
-                                                                              allow="encrypted-media">
-                                                                              </iframe>
-                                                                          </b-modal>
+                                                                          <div>
+                                                                            <b-modal id="modal-1" title="Mandarina bar" hide-footer>
+                                                                              <div>
+                                                                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaBarCocha%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                                                                                width="470" 
+                                                                                height="300" 
+                                                                                style="border:none;overflow:hidden" 
+                                                                                scrolling="no" 
+                                                                                frameborder="0" 
+                                                                                allowTransparency="true" 
+                                                                                allow="encrypted-media">
+                                                                                </iframe>
+                                                                              </div>
+                                                                            </b-modal>
+                                                                          </div>
                                                                     </div>
-                                                              </div>
-                                                        </div><!--/row-->
-                                            </div>
-                                  </div>
+                                                </div>
                               </b-col>
                     </b-row>
               </b-container>
         </div>
-  <div class="gallery fondo">
-        <b-container class="bv-example-row albun">
+  <div class="pt-4 gallery fondo">
+        <b-container class="">
                     <b-row>
-                          <b-col>
+                          <b-col cols="12" lg="6" class="py-4">
                               <img src="../assets/mandabar_1.jpg">
                           </b-col>
-                          <b-col>
-                              <img src="../assets/mandabar_2.jpg" class="mb-4">
+                          <b-col cols="12" lg="6" class="py-4">
+                              <img src="../assets/mandabar_2.jpg">
                           </b-col>
                     </b-row>
-                    <b-row>
-                          <b-col>
-                              <img src="../assets/mandabar_3.jpg" alt="">
+                    <b-row class="pt-1">
+                          <b-col cols="12" lg="4" class="py-4">
+                              <img src="../assets/mandabar_3.jpg">
                           </b-col>
-                          <b-col>
-                              <img src="../assets/mandabar_4.jpg" alt="">
+                          <b-col cols="12" lg="4" class="py-4">
+                              <img src="../assets/mandabar_4.jpg">
                           </b-col>
-                          <b-col>
-                              <img src="../assets/mandabar_7.jpg" alt="" height="240px">
+                          <b-col cols="12" lg="4" class="py-4">
+                              <img src="../assets/mandabar_7.jpg">
                           </b-col>
                     </b-row>
         </b-container>
@@ -132,9 +125,8 @@ export default {
   background: linear-gradient(#4ec0e1,#151633)
 }
 .dj{
-  height: 400px;
-  width: 500px;
-  margin: 50px;
+  height: 400;
+  width: 500;
   border-radius: 30px
 }
 .colores{
@@ -146,7 +138,7 @@ export default {
 }
 .gallery img{
     width:100%;
-    border-radius: 20px
+    border-radius: 10%
 }
 .albun{
   margin: 50px;
