@@ -5,7 +5,7 @@
                   <div class="container h-100">
                     <div class="row h-100 align-items-center">
                       <div class="col-lg-12">
-                        <img src="../assets/nuevoslogos/logotipo (4).png"/>
+                        <b-img :src="require('../assets/nuevoslogos/logotipo (4).png')" fluid alt="Responsive image"></b-img>
                         <p class="lead mb-5 text-white-50">El mas elegante, sofisticado y completo karaoke de la ciudad de Cochabamba</p>
                       </div>
                     </div>
@@ -14,12 +14,11 @@
                 <!--/Header-->
         <!-- Page Content -->
         <div class="container">
-
               <div class="row">
-                <b-col>
-                  <img src="../assets/musi7.jpg" alt="" class="dj5">
+                <b-col cols="12" lg="4">
+                  <b-img :src="require('../assets/musi7.jpg')" fluid alt="Responsive image" class="dj5"></b-img>
                 </b-col>
-                <b-col>
+                <b-col cols="12" lg="4">
                     <div>
                           <h2>Acerca de Music Hall</h2>
                           <hr>
@@ -27,7 +26,7 @@
                           <p>Un comodo ambiente con los mejores tragos y bastante espacio para disfrutar junto a tus amigos.</p>
                     </div>
                     </b-col>
-                    <b-col>
+                    <b-col cols="12" lg="4">
                     <div>
                         <h2>Contacto</h2>
                         <hr>
@@ -82,24 +81,24 @@
               </div><!--/row-->
         </div><!--/Page Content-->
               <div class="fondo5 gallery5">
-                      <b-container class="bv-example-row albun5">
+                      <b-container class="bv-example-row">
                                 <b-row>
-                                      <b-col>
-                                        <img src="../assets/music0.jpg" alt="">
+                                      <b-col cols="12" lg="6">
+                                        <b-img :src="require('../assets/music0.jpg')" fluid alt="Responsive image"></b-img>
                                       </b-col>
-                                      <b-col>
-                                        <img src="../assets/music5.jpg" alt="">
+                                      <b-col cols="12" lg="6">
+                                        <b-img :src="require('../assets/music5.jpg')" fluid alt="Responsive image"></b-img>
                                       </b-col>
                                 </b-row>
                                 <b-row class="mt-5">
-                                        <b-col>
-                                          <img src="../assets/music3.jpg" alt="">
+                                        <b-col cols="12" lg="4">
+                                          <b-img :src="require('../assets/music3.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
-                                        <b-col>
-                                          <img src="../assets/music4.jpg" alt="">
+                                        <b-col cols="12" lg="4">
+                                          <b-img :src="require('../assets/music4.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
-                                        <b-col>
-                                          <img src="../assets/music6.jpg" alt="">
+                                        <b-col cols="12" lg="4">
+                                          <b-img :src="require('../assets/music6.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
                                 </b-row>
                       </b-container>
@@ -118,10 +117,10 @@ export default {
   background: linear-gradient(#2c778d, #4ec0e1 )
 }
 .dj5{
-  height: 400px;
-  width: 500px;
-  margin: 50px;
-  border-radius: 30px
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  border-radius: 10%
 }
 .fondo5{
   background: linear-gradient(#2c778d, #4ec0e1)
@@ -135,7 +134,7 @@ export default {
   border-radius: 10%
 }
 .albun5{
-  margin:90px;
-  padding: 90px
+  margin:9%;
+  padding:9%;
 }
 </style>
