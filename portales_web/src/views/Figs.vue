@@ -3,17 +3,18 @@
               <!--Header-->
               <b-container class="pt-5" fluid>
                 <b-row>
-                  <b-col class="pt-4" cols="12"><b-img :src="require ('../assets/nuevoslogos/logotipo.png')" class="w-40" fluid></b-img></b-col>
+                  <b-col class="pt-4" cols="12">
+                    <b-img :src="require ('../assets/nuevoslogos/logotipo.png')" class="w-40" fluid></b-img></b-col>
                 </b-row>
               </b-container>
               <!--/Header-->
       <div class="">
       <b-container>
             <b-row>
-                  <b-col>
+                  <b-col cols="12" lg="5" md="12">
                       <b-img :src="require('../assets/fig_8.jpg')" class="pt-3 djs0 w-100 mt-2" fluid></b-img>
                   </b-col>
-                  <b-col class="ml-auto mt-4" cols="12" lg="4">
+                  <b-col class="ml-auto mt-4" cols="12" lg="4" md="6">
                                       <div>
                                             <h2>Acerca de FIGS.</h2>
                                             <hr />
@@ -25,7 +26,7 @@
                                             <p>Eso no es todo, en Figs disfrutaras la variedad de musica para bailar y sentir el ritmo en todo el cuerpo además de las distintas temáticas preparadas.</p>
                                       </div>
                   </b-col>
-                  <b-col class="mt-4 ml-auto">
+                  <b-col class="mt-4 ml-auto" col1="12" lg="3" md="6">
                                     <div>
                                           <h2>Contacto</h2>
                                           <hr />
@@ -88,21 +89,21 @@
     <div class=" pt-4 gallery0">
           <b-container class="">
                     <b-row class="">
-                          <b-col cols="12" lg="6" class="py-4">
+                          <b-col cols="12" lg="6" md="6" class="py-4">
                             <img src="../assets/fig1.jpg"/>
                           </b-col>
-                          <b-col cols="12" lg="6" class="py-4">
+                          <b-col cols="12" lg="6" md="6" class="py-4">
                             <img src="../assets/fig2.jpg"/>
                           </b-col>
                     </b-row>
                     <b-row class="pt-1">
-                          <b-col cols="12" lg="4" class="py-4">
+                          <b-col cols="12" lg="4" md="4" class="py-4">
                             <img src="../assets/fig3.jpg"/>
                           </b-col>
-                          <b-col cols="12" lg="4" class="py-4">
+                          <b-col cols="12" lg="4" md="4" class="py-4">
                             <img src="../assets/fig4.jpg"/>
                           </b-col>
-                          <b-col cols="12" lg="4" class="py-4">
+                          <b-col cols="12" lg="4" md="4" class="py-4">
                             <img src="../assets/fig_2.jpg"/>
                           </b-col>
                     </b-row>

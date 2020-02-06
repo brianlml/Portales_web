@@ -10,10 +10,10 @@
     <div class="">
         <b-container>
             <b-row class="">
-                  <b-col>
+                  <b-col cols="12" lg="5" md="12">
                       <b-img :src="require('../assets/mandar_2.jpg')" class="pt-3 djs2 w-100 mt-2" fluid></b-img>
                   </b-col>
-                  <b-col class="ml-auto mt-4" cols="12" lg="4">
+                  <b-col class="ml-auto mt-4" cols="12" lg="4" md="6">
                                 <div>
                                       <!-- Page Content -->
                                        <h2>Mandarina LOUNGE</h2>
@@ -22,7 +22,7 @@
                                         Durante estos más de 15 años MANDARINA se ha consolidado como una tradición en las noches cochabambinas.</p>
                                 </div>
                   </b-col>              
-                  <b-col class="mt-4 ml-auto">
+                  <b-col class="mt-4 ml-auto" cols="12" lg="3" md="6">
                                                           <div>
                                                                 <h2>Contacto</h2>
                                                                 <hr>
@@ -84,21 +84,21 @@
     <div class="pt-4 gallery2">
               <b-container class="">
                     <b-row class="">
-                            <b-col cols="12" lg="6" class="py-4">
+                            <b-col cols="12" lg="6" md="6" class="py-4">
                                 <img src="../assets/mandar_6.jpg">
                             </b-col>
-                            <b-col cols="12" lg="6" class="py-4">
+                            <b-col cols="12" lg="6" md="6" class="py-4">
                                 <img src="../assets/mandar_8.jpg">
                             </b-col>
                     </b-row>
                     <b-row>
-                      <b-col cols="12" lg="4" class="py-4">
+                      <b-col cols="12" lg="4" md="6" class="py-4">
                           <img src="../assets/mandar_11.jpg">
                       </b-col>
-                      <b-col cols="12" lg="4" class="py-4">
+                      <b-col cols="12" lg="4" md="6" class="py-4">
                           <img src="../assets/manda_1.jpg">
                       </b-col>
-                      <b-col cols="12" lg="4" class="py-4">
+                      <b-col cols="12" lg="4" md="12" class="py-4">
                           <img src="../assets/manda_4.jpg" class="mb-4">
                           <img src="../assets/mandar_3.jpg">
                       </b-col>

@@ -6,7 +6,6 @@
                     <div class="row h-100 align-items-center">
                       <div class="col-lg-12">
                         <b-img :src="require('../assets/nuevoslogos/logotipo (4).png')" fluid alt="Responsive image"></b-img>
-                        <p class="lead mb-5 text-white-50">El mas elegante, sofisticado y completo karaoke de la ciudad de Cochabamba</p>
                       </div>
                     </div>
                   </div>
@@ -15,7 +14,7 @@
         <!-- Page Content -->
         <div class="container-fluid">
               <div class="row">
-                <b-col cols="12" lg="4" md="12" class="pt-0 pb-4">
+                <b-col cols="12" lg="5" md="12" class="pt-0 pb-4">
                   <b-img :src="require('../assets/musi7.jpg')" fluid alt="Responsive image" class="dj5"></b-img>
                 </b-col>
                 <b-col cols="12" lg="4" md="6">
@@ -26,7 +25,7 @@
                           <p>Un comodo ambiente con los mejores tragos y bastante espacio para disfrutar junto a tus amigos.</p>
                     </div>
                     </b-col>
-                    <b-col cols="12" lg="4" md="6">
+                    <b-col cols="12" lg="3" md="6">
                     <div>
                         <h2>Contacto</h2>
                         <hr>

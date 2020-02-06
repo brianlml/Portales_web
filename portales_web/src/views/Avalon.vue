@@ -7,7 +7,6 @@
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
               <b-img :src="require('../assets/nuevoslogos/logotipo (2).png')" fluid alt="Responsive image"></b-img>
-              <p class="lead mb-5 text-white-50">Diversion Sin Precedentes</p>
             </div>
           </div>
         </div>

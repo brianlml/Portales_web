@@ -7,7 +7,6 @@
                         <div class="row h-100 align-items-center">
                               <div class="col-lg-12">
                                 <b-img :src="require('../assets/nuevoslogos/logotipo (3).png')" fluid alt="Responsive image"></b-img>
-                                <p class="lead mb-5 text-white-50">Se viene una Experiencia nueva</p>
                               </div>
                         </div>
                     </div>
@@ -19,7 +18,7 @@
                 <div class="py-5">
                 <div class="container">
                         <div class="row">
-                          <b-col cols="10" lg="4" md="10">
+                          <b-col cols="10" lg="5" md="10">
                             <b-img :src="require('../assets/mang0.jpg')" fluid alt="Responsive image" class="dj9"></b-img>
                           </b-col>
                           <b-col cols="10" lg="4" md="6">
@@ -30,7 +29,7 @@
                                         <p>Un ambiente comodo con los tragos perfectos, con presentación de musicos y bailarines que te haran disfrutar con su espectacular show.</p>
                                       </div>
                                       </b-col>
-                                      <b-col cols="10" lg="4" md="6">
+                                      <b-col cols="10" lg="3" md="6">
                                       <div>
                                         <h2>Contacto</h2>
                                         <hr />

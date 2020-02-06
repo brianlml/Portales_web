@@ -3,17 +3,18 @@
             <!--Header-->
             <b-container class="py-4" fluid>
               <b-row>
-                <b-col class="pt-4" cols="12"><b-img :src="require('../assets/logobar0.png')" class="mt-4 py-4 w-40" fluid></b-img></b-col>
+                <b-col class="pt-4" cols="12" lg="12" md="12">
+                  <b-img :src="require('../assets/logobar0.png')" class="mt-4 py-4 w-40" fluid></b-img></b-col>
               </b-row>
             </b-container>
             <!--/Header-->
         <div class="">
               <b-container>
                     <b-row class="">
-                              <b-col>
+                              <b-col cols="12" lg="5" md="12">
                                   <b-img :src="require('../assets/mandabar_5.jpg')" class="pt-3 dj w-100 mt-2" fluid></b-img>
                               </b-col>
-                              <b-col class="ml-auto mt-4 colores" cols="12" lg="4">
+                              <b-col class="ml-auto mt-4 colores" cols="12" lg="4" md="6">
                                      <!-- Page Content -->
                                             <div>
                                                    <h2>Acerca de Mandarina Bar.</h2>
@@ -22,7 +23,7 @@
                                                    <p>Con el personal capacitado para ofrecer la mejor atención a nuestros comensales.</p>
                                             </div>
                               </b-col>
-                              <b-col class="mt-4 ml-auto colores">
+                              <b-col class="mt-4 ml-auto colores" cols="12" lg="3" md="6">
                                                 <div>
                                                     <h2>Contacto</h2>
                                                     <hr>
