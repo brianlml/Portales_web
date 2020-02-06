@@ -64,7 +64,9 @@
                 <h2>Eventos</h2>
                 <hr />
                 <b-button v-b-modal.modal-1>Click aquí</b-button>
+                <div>
                 <b-modal id="modal-1" title="410 Rooftop" hide-footer>
+                  <div>
                   <iframe
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F410Rooftop%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
                     width="470"
@@ -75,27 +77,29 @@
                     allowtransparency="true"
                     allow="encrypted-media"
                   ></iframe>
+                  </div>
                 </b-modal>
+                </div>
               </div>
             </div>
           </b-col>
         </div>
         <!--/row-->
       </div>
-      <div class="gallery3 fondo3">
-        <b-container class="bv-example-row albun3">
+      <div class="pt-4 gallery3 fondo3">
+        <b-container>
           <b-row>
-            <b-col cols="10" lg="4" md="4" >
+            <b-col cols="10" lg="4" md="4" class="py-4">
               <b-img :src="require('../assets/rooftop_1.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
-            <b-col cols="10" lg="4" md="4">
+            <b-col cols="10" lg="4" md="4" class="py-4">
               <b-img :src="require('../assets/rooftop_11.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
-            <b-col cols="10" lg="4" md="4">
+            <b-col cols="10" lg="4" md="4" class="py-4">
               <b-img :src="require('../assets/rooftop_3.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
-          <b-row>
+          <b-row class="">
             <b-col cols="10" lg="6" md="5">
               <b-img :src="require('../assets/rooftop4.jpg')" fluid alt="Responsive image" class="mt-5" height="420px"></b-img>
             </b-col>
@@ -126,7 +130,6 @@ export default {};
 .dj3 {
   height: 100%;
   width: 100%;
-  margin: auto;
   border-radius: 10%;
 }
 .albun3 {
