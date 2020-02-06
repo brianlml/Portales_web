@@ -63,8 +63,8 @@
                                                                     <div>
                                                                       <b-modal id="modal-1" title="Mandarina lounge" hide-footer>
                                                                         <div class="responsive">
-                                                                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaLOUNGE%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                                                                            width="470" 
+                                                                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaLOUNGE%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                                                                            width="350" 
                                                                             height="300" 
                                                                             style="border:none;overflow:hidden" 
                                                                             scrolling="no" 
@@ -115,6 +115,20 @@ export default {
 </script>
 
 <style>
+.responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}
 .titulo2{
   background: linear-gradient(150deg,	#1c375c 10%,#2c778d,	#e66a4e 50%,#1f2747 70%)
 }

@@ -13,12 +13,12 @@
         </div>
       </header>
       <!--/Header-->
-  <div class="tarjeta4">
+  <div class="">
     <div class="row py-4">
       <b-col cols="12" lg="4" md="10" class="pl-5 pr-5 pb-5">
         <b-img :src="require('../assets/avalon0.jpg')" fluid alt="Responsive image" class="dj4"></b-img>
       </b-col>
-      <b-col cols="12" lg="4" md="6" class="colores" >
+      <b-col cols="12" lg="4" md="6" class="" >
       <div>
           <h2>Acerca de Avalon</h2>
           <hr>
@@ -26,7 +26,7 @@
           <p>Una de las mejores discotecas de Cochabamba, visitado por locales y turistas.</p>
       </div>
       </b-col>
-      <b-col cols="12" lg="4" md="6" class="colores">
+      <b-col cols="12" lg="4" md="6" class="">
         <div>
             <h2>Contacto</h2>
             <hr>
@@ -83,9 +83,9 @@
                       <b-button v-b-modal.modal-1>Click aquí</b-button>
                       <div>                        
                         <b-modal id="modal-1" title="Avalon" hide-footer>
-                          <div>
-                          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Favaloncbba%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                          width="470" 
+                          <div class="responsive">
+                          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Favaloncbba%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                          width="350" 
                           height="300" 
                           style="border:none;overflow:hidden" 
                           scrolling="no" 
@@ -102,7 +102,7 @@
         </b-col>
     </div>
   </div>
-  <div class="pt-4 gallery4 fondo4">
+  <div class="pt-4 gallery4">
         <b-container class="">
           <b-row>
             <b-col cols="10" lg="6" md="5" class="py-4">
@@ -133,6 +133,20 @@ export default {};
 </script>
 
 <style>
+.responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}
 .colores{
   color:#eef3d8
 }
