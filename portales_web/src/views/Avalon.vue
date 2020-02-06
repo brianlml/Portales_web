@@ -13,13 +13,12 @@
         </div>
       </header>
       <!--/Header-->
-  <!-- Page Content -->
-  <div class="">
-    <div class="row">
-      <b-col cols="12" lg="4" md="10">
+  <div class="tarjeta4">
+    <div class="row py-4">
+      <b-col cols="12" lg="4" md="10" class="pl-5 pr-5 pb-5">
         <b-img :src="require('../assets/avalon0.jpg')" fluid alt="Responsive image" class="dj4"></b-img>
       </b-col>
-      <b-col cols="12" lg="4" md="6" >
+      <b-col cols="12" lg="4" md="6" class="colores" >
       <div>
           <h2>Acerca de Avalon</h2>
           <hr>
@@ -27,7 +26,7 @@
           <p>Una de las mejores discotecas de Cochabamba, visitado por locales y turistas.</p>
       </div>
       </b-col>
-      <b-col cols="12" lg="4" md="6">
+      <b-col cols="12" lg="4" md="6" class="colores">
         <div>
             <h2>Contacto</h2>
             <hr>
@@ -82,7 +81,9 @@
                     <h2>Eventos</h2>
                     <hr>
                       <b-button v-b-modal.modal-1>Click aquí</b-button>
+                      <div>                        
                         <b-modal id="modal-1" title="Avalon" hide-footer>
+                          <div>
                           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Favaloncbba%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
                           width="470" 
                           height="300" 
@@ -92,30 +93,32 @@
                           allowTransparency="true" 
                           allow="encrypted-media"
                           ></iframe>
-
+                          </div>
                         </b-modal>
+                     </div>
+   
                 </div>
         </div>
         </b-col>
     </div>
   </div>
-  <div class="gallery4">
-        <b-container class="bv-example-row albun4">
+  <div class="pt-4 gallery4 fondo4">
+        <b-container class="">
           <b-row>
-            <b-col cols="10" lg="6" md="5">
+            <b-col cols="10" lg="6" md="5" class="py-4">
               <b-img :src="require('../assets/avalon_1.png')" fluit alt="Responsive image"></b-img>
             </b-col>
-            <b-col cols="10" lg="6" md="5">
+            <b-col cols="10" lg="6" md="5" class="py-4">
               <b-img :src="require('../assets/avalon_2.png')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
 
-          <b-row class="mt-5">
-            <b-col cols="10" lg="6" md="10">
+          <b-row class="pt-5">
+            <b-col cols="10" lg="6" md="10" class="py-4">
               <b-img :src="require('../assets/avalon_3.png')" fluid alt="Responsive image"></b-img>
               <b-img :src="require('../assets/avalon_5.png')" fluid alt="Responsive image" class="mt-5"></b-img>
             </b-col>
-            <b-col cols="10" lg="6" md="10">
+            <b-col cols="10" lg="6" md="10" class="py-4">
               <b-img :src="require('../assets/aval01.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
@@ -130,6 +133,9 @@ export default {};
 </script>
 
 <style>
+.colores{
+  color:#eef3d8
+}
 .titulo4{
   background: linear-gradient(180deg,#2c778d,#a8dcf3,#2d8daa,	#0193bd,#1f2747)
 }
@@ -142,11 +148,7 @@ export default {};
 .dj4{
   height: 100%;
   width: 100%;
-  margin: auto;
   border-radius: 10%;
-}
-.albun4{
-  margin: 8%;
 }
 .gallery4{
   display: grid;

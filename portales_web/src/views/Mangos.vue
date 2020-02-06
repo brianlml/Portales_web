@@ -16,6 +16,7 @@
 
                 <!-- Page Content -->
                 <div class="">
+                <div class="tarjeta5 py-5">
                 <div class="container">
                         <div class="row">
                           <b-col cols="10" lg="4" md="10">
@@ -67,8 +68,9 @@
                                           <h2>Eventos</h2>
                                           <hr>
                                           <b-button v-b-modal.modal-1>Click aquí</b-button>
+                                          <div>
                                           <b-modal id="modal-1" title="Mangos Bar" hide-footer>
-                                            <!--<img src="../assets/mangos.jpg" class="img-fluid rounded" />-->
+                                            <div>
                                             <iframe
                                               src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
                                               width="470"
@@ -79,7 +81,9 @@
                                               allowtransparency="true"
                                               allow="encrypted-media"
                                             ></iframe>
+                                            </div>
                                           </b-modal>
+                                          </div>
                                         </div>
                                       </div>
                                       </b-col>
@@ -89,24 +93,24 @@
                 </div>
                 <!-- /.container -->
             </div>
-            <div class="gallery9">
-                    <b-container class="bv-example-row albun4">
+            <div class="gallery9 fondo9">
+                    <b-container class="">
                           <b-row>
-                              <b-col cols="12" lg="6" md="5">
+                              <b-col cols="12" lg="6" md="5" class="py-4">
                                 <b-img :src="require('../assets/mangos0.jpg')" fluid alt="Responsive image" height="600px"></b-img>
                               </b-col>
-                              <b-col cols="12" lg="6" md="5">
+                              <b-col cols="12" lg="6" md="5" class="py-4">
                                 <b-img :src="require('../assets/mangos2.jpg')" fluid alt="Responsive image"></b-img>
                                 <b-img :src="require('../assets/mangos5.jpg')" fluid alt="Responsive image" class="mt-3"></b-img>
                               </b-col>
                           </b-row>
 
                           <b-row class="mt-5">
-                                <b-col cols="12" lg="6" md="5">
+                                <b-col cols="12" lg="6" md="5" class="py-4">
                                   <b-img :src="require('../assets/mangos8.jpg')" fluid alt="Responsive image"></b-img>
                                   <b-img :src="require('../assets/mangos6.jpg')" fluid alt="Responsive image" class="mt-3"></b-img>
                                 </b-col>
-                                <b-col cols="12" lg="6" md="5">
+                                <b-col cols="12" lg="6" md="5" class="py-4">
                                   <b-img :src="require('../assets/mangos4.jpg')" fluid alt="Responsive image" height="610px"></b-img>
                                 </b-col>
                           </b-row>
@@ -135,12 +139,7 @@ export default {
 .dj9{
   height: 100%;
   width: 100%;
-  margin: auto;
   border-radius: 10%
-}
-.albun9{
-  margin: auto;
-  padding: 80px
 }
 .gallery9{
   display: grid;
