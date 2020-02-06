@@ -7,18 +7,17 @@
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
               <b-img :src="require('../assets/nuevoslogos/logotipo (2).png')" fluid alt="Responsive image"></b-img>
-              <p class="lead mb-5 text-white-50">Diversion Sin Precedentes</p>
             </div>
           </div>
         </div>
       </header>
       <!--/Header-->
-  <div class="tarjeta4">
+  <div class="">
     <div class="row py-4">
       <b-col cols="12" lg="4" md="10" class="pl-5 pr-5 pb-5">
         <b-img :src="require('../assets/avalon0.jpg')" fluid alt="Responsive image" class="dj4"></b-img>
       </b-col>
-      <b-col cols="12" lg="4" md="6" class="colores" >
+      <b-col cols="12" lg="4" md="6" class="" >
       <div>
           <h2>Acerca de Avalon</h2>
           <hr>
@@ -26,7 +25,7 @@
           <p>Una de las mejores discotecas de Cochabamba, visitado por locales y turistas.</p>
       </div>
       </b-col>
-      <b-col cols="12" lg="4" md="6" class="colores">
+      <b-col cols="12" lg="4" md="6" class="">
         <div>
             <h2>Contacto</h2>
             <hr>
@@ -102,7 +101,7 @@
         </b-col>
     </div>
   </div>
-  <div class="pt-4 gallery4 fondo4">
+  <div class="pt-4 gallery4">
         <b-container class="">
           <b-row>
             <b-col cols="10" lg="6" md="5" class="py-4">

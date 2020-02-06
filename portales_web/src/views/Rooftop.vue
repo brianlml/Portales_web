@@ -2,12 +2,11 @@
   <div class="titulo3">
     <div>
       <!-- Header -->
-      <header class="mt-5 py-5">
+      <header class="mt-5 py-5 mb-5">
         <div class="container">
           <div class="row align-items-center">
             <div>
               <b-img :src="require('../assets/logoroof.png')" fluid alt="Responsive image"></b-img>
-              <p class="lead mb-5 text-white-50">Sky above us, earth below us, drinks within us</p>
             </div>
           </div>
         </div>
@@ -86,7 +85,7 @@
         </div>
         <!--/row-->
       </div>
-      <div class="pt-4 gallery3 fondo3">
+      <div class="pt-4 gallery3">
         <b-container>
           <b-row>
             <b-col cols="10" lg="4" md="4" class="py-4">
