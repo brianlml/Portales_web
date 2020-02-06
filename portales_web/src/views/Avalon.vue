@@ -1,28 +1,25 @@
 <template>
 <div>
   <div>
-    <div>
       <!-- Header -->
-      <header class="bg-dark mt-5 py-5 mb-5">
+      <header class="mt-5 py-5 titulo4">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
-              <img src="../assets/nuevoslogos/logotipo (2).png" />
+              <b-img :src="require('../assets/nuevoslogos/logotipo (2).png')" fluid alt="Responsive image"></b-img>
               <p class="lead mb-5 text-white-50">Diversion Sin Precedentes</p>
             </div>
           </div>
         </div>
       </header>
       <!--/Header-->
-  </div>
-
   <!-- Page Content -->
-  <div class="container">
+  <div class="tarjeta4">
     <div class="row">
-      <b-col>
-        <img src="../assets/avalon0.jpg" alt="" class="dj4">
+      <b-col cols="12" lg="4" md="10">
+        <b-img :src="require('../assets/avalon0.jpg')" fluid alt="Responsive image" class="dj4"></b-img>
       </b-col>
-      <b-col>
+      <b-col cols="12" lg="4" md="6" >
       <div>
           <h2>Acerca de Avalon</h2>
           <hr>
@@ -30,7 +27,7 @@
           <p>Una de las mejores discotecas de Cochabamba, visitado por locales y turistas.</p>
       </div>
       </b-col>
-      <b-col>
+      <b-col cols="12" lg="4" md="6">
         <div>
             <h2>Contacto</h2>
             <hr>
@@ -102,24 +99,24 @@
         </b-col>
     </div>
   </div>
-  <div class="gallery4">
+  <div class="gallery4 fondo4">
         <b-container class="bv-example-row albun4">
           <b-row>
-            <b-col>
-              <img src="../assets/avalon_1.png" alt="">
+            <b-col cols="10" lg="6" md="5">
+              <b-img :src="require('../assets/avalon_1.png')" fluit alt="Responsive image"></b-img>
             </b-col>
-            <b-col>
-              <img src="../assets/avalon_2.png" alt="">
+            <b-col cols="10" lg="6" md="5">
+              <b-img :src="require('../assets/avalon_2.png')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
 
           <b-row class="mt-5">
-            <b-col>
-              <img src="../assets/avalon_3.png" alt="">
-              <img src="../assets/avalon_5.png" class="mt-5">
+            <b-col cols="10" lg="6" md="10">
+              <b-img :src="require('../assets/avalon_3.png')" fluid alt="Responsive image"></b-img>
+              <b-img :src="require('../assets/avalon_5.png')" fluid alt="Responsive image" class="mt-5"></b-img>
             </b-col>
-            <b-col>
-              <img src="../assets/aval01.jpg" height="600">
+            <b-col cols="10" lg="6" md="10">
+              <b-img :src="require('../assets/aval01.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
         </b-container>
@@ -133,15 +130,23 @@ export default {};
 </script>
 
 <style>
+.titulo4{
+  background: linear-gradient(#2c778d,#2d8daa,#a8dcf3)
+}
+.tarjeta4{
+  background: linear-gradient(#a8dcf3,#2d8daa,#2d8daa)
+}
+.fondo4{
+  background: linear-gradient(#2d8daa,#57b0cd,#a8dcf3,#00141b,#1f2747)
+}
 .dj4{
-  height: 400px;
-  width: 500px;
-  margin: 50px;
-  border-radius: 30px
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  border-radius: 10%;
 }
 .albun4{
-  margin: 100px;
-  padding: 80px
+  margin: 8%;
 }
 .gallery4{
   display: grid;

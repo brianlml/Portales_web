@@ -2,11 +2,11 @@
   <div>
             <div>
                   <!-- Header -->
-                  <header class="bg-dark py-5 mb-5 texto1">
+                  <header class="py-5 titulo5">
                     <div class="container h-100">
                         <div class="row h-100 align-items-center">
                               <div class="col-lg-12">
-                                <img src="../assets/nuevoslogos/logotipo (3).png" />
+                                <b-img :src="require('../assets/nuevoslogos/logotipo (3).png')" fluid alt="Responsive image"></b-img>
                                 <p class="lead mb-5 text-white-50">Se viene una Experiencia nueva</p>
                               </div>
                         </div>
@@ -15,12 +15,13 @@
                   <!--/Header-->
 
                 <!-- Page Content -->
+                <div class="tarjeta5">
                 <div class="container">
                         <div class="row">
-                          <b-col>
-                            <img src="../assets/mang0.jpg" alt="" class="dj4">
+                          <b-col cols="10" lg="4" md="10">
+                            <b-img :src="require('../assets/mang0.jpg')" fluid alt="Responsive image" class="dj9"></b-img>
                           </b-col>
-                          <b-col>
+                          <b-col cols="10" lg="4" md="6">
                                       <div>
                                         <h2>Acerca de Mangos bar</h2>
                                         <hr />
@@ -28,7 +29,7 @@
                                         <p>Un ambiente comodo con los tragos perfectos, con presentación de musicos y bailarines que te haran disfrutar con su espectacular show.</p>
                                       </div>
                                       </b-col>
-                                      <b-col>
+                                      <b-col cols="10" lg="4" md="6">
                                       <div>
                                         <h2>Contacto</h2>
                                         <hr />
@@ -85,27 +86,28 @@
                         </div>
                         <!-- /.row -->
                 </div>
+                </div>
                 <!-- /.container -->
             </div>
-            <div class="gallery4 fondo4">
+            <div class="gallery9 fondo9">
                     <b-container class="bv-example-row albun4">
                           <b-row>
-                              <b-col>
-                                <img src="../assets/mangos0.jpg" height="600px" />
+                              <b-col cols="12" lg="6" md="5">
+                                <b-img :src="require('../assets/mangos0.jpg')" fluid alt="Responsive image" height="600px"></b-img>
                               </b-col>
-                              <b-col>
-                                <img src="../assets/mangos2.jpg" alt />
-                                <img src="../assets/mangos5.jpg" class="mt-3" />
+                              <b-col cols="12" lg="6" md="5">
+                                <b-img :src="require('../assets/mangos2.jpg')" fluid alt="Responsive image"></b-img>
+                                <b-img :src="require('../assets/mangos5.jpg')" fluid alt="Responsive image" class="mt-3"></b-img>
                               </b-col>
                           </b-row>
 
                           <b-row class="mt-5">
-                                <b-col>
-                                  <img src="../assets/mangos8.jpg" alt />
-                                  <img src="../assets/mangos6.jpg" class="mt-3" />
+                                <b-col cols="12" lg="6" md="5">
+                                  <b-img :src="require('../assets/mangos8.jpg')" fluid alt="Responsive image"></b-img>
+                                  <b-img :src="require('../assets/mangos6.jpg')" fluid alt="Responsive image" class="mt-3"></b-img>
                                 </b-col>
-                                <b-col>
-                                  <img src="../assets/mangos4.jpg" height="610px" />
+                                <b-col cols="12" lg="6" md="5">
+                                  <b-img :src="require('../assets/mangos4.jpg')" fluid alt="Responsive image" height="610px"></b-img>
                                 </b-col>
                           </b-row>
                     </b-container>
@@ -121,27 +123,30 @@ export default {
 };
 </script>
 <style>
-.texto1 {
-  background: linear-gradient(#2c778d, #4ec0e1);
+.titulo5{
+  background: linear-gradient(150deg,	#2c778d 55%,#4ec0e1,#c9b359)
 }
-.dj4{
-  height: 400px;
-  width: 500px;
-  margin: 50px;
-  border-radius: 30px
+.tarjeta5{
+  background: linear-gradient(160deg,#2c778d 7%,#4ec0e1,#799658,#c9b359,#b87f39)
 }
-.fondo4 {
-  background: radial-gradient(#2c778d, #1c375c, #4ec0e1);
+.fondo9{
+  background: linear-gradient(165deg,#4ec0e1,#c9b359,#b87f39,#799658,#1f2747 80%)
 }
-.albun4 {
-  margin: 100px;
+.dj9{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  border-radius: 10%
+}
+.albun9{
+  margin: auto;
   padding: 80px
 }
-.gallery4 {
+.gallery9{
   display: grid;
   grid-auto-columns: auto auto;
 }
-.gallery4 img {
+.gallery9 img {
   width: 90%;
   border-radius: 20px;
 }
