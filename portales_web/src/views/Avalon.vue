@@ -12,7 +12,7 @@
         </div>
       </header>
       <!--/Header-->
-  <div class="">
+  <div class="container-fluid">
     <div class="row py-4">
       <b-col cols="12" lg="4" md="10" class="pl-5 pr-5 pb-5">
         <b-img :src="require('../assets/avalon0.jpg')" fluid alt="Responsive image" class="dj4"></b-img>

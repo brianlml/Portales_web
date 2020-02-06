@@ -14,7 +14,7 @@
       <!--/Header-->
       <!-- Page Content -->
       <div class="">
-        <div class="container row">
+        <div class="pl-5 container-fluid row">
           <b-col class="col-12 col-lg-4 col-md-10">
             <b-img :src="require('../assets/rooftop_5.jpg')"  fluid alt class="dj3" />
           </b-col>
