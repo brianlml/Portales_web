@@ -1,13 +1,13 @@
 <template>
-<div>
+<div class="titulo2">
   <!--/Header-->    
-    <b-container class="py-5 titulo2" fluid>
+    <b-container class="py-5" fluid>
         <b-row>
           <b-col class="pt-4" cols="12"><b-img :src="require('../assets/logotipo4.png')" class="w-40" fluid></b-img></b-col>
         </b-row>
     </b-container>
   <!--/Header-->
-    <div class="tarjeta2">
+    <div class="">
         <b-container>
             <b-row class="">
                   <b-col>
@@ -81,7 +81,7 @@
             </b-row>
         </b-container>
     </div>
-    <div class="pt-4 gallery2 fondo2">
+    <div class="pt-4 gallery2">
               <b-container class="">
                     <b-row class="">
                             <b-col cols="12" lg="6" class="py-4">
@@ -116,7 +116,7 @@ export default {
 
 <style>
 .titulo2{
-  background: linear-gradient(#2c778d 30%,#cc672a)
+  background: linear-gradient(150deg,	#1c375c 10%,#2c778d,	#e66a4e 50%,#1f2747 70%)
 }
 .tarjeta2{
 background: linear-gradient(#cc672a 20%,#2c778d,#151633)

@@ -1,8 +1,8 @@
 <template>
-<div>
+<div class="titulo4">
   <div>
       <!-- Header -->
-      <header class="mt-5 py-5 titulo4">
+      <header class="mt-5 py-5">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
@@ -13,7 +13,6 @@
         </div>
       </header>
       <!--/Header-->
-  <!-- Page Content -->
   <div class="tarjeta4">
     <div class="row py-4">
       <b-col cols="12" lg="4" md="10" class="pl-5 pr-5 pb-5">
@@ -138,7 +137,7 @@ export default {};
   color:#eef3d8
 }
 .titulo4{
-  background: linear-gradient(#2c778d,#2d8daa,#a8dcf3)
+  background: linear-gradient(180deg,#2c778d,#a8dcf3,#2d8daa,	#0193bd,#1f2747)
 }
 .tarjeta4{
   background: linear-gradient(#a8dcf3,#2d8daa,#2d8daa)

@@ -1,15 +1,15 @@
 <template>
-<div>
+<div class="titulo0">
               <!--Header-->
-              <b-container class="titulo0 pt-5" fluid>
+              <b-container class="pt-5" fluid>
                 <b-row>
                   <b-col class="pt-4" cols="12"><b-img :src="require ('../assets/nuevoslogos/logotipo.png')" class="w-40" fluid></b-img></b-col>
                 </b-row>
               </b-container>
               <!--/Header-->
-      <div class="tarjeta0">
+      <div class="">
       <b-container>
-            <b-row class="">
+            <b-row>
                   <b-col>
                       <b-img :src="require('../assets/fig_8.jpg')" class="pt-3 djs0 w-100 mt-2" fluid></b-img>
                   </b-col>
@@ -85,7 +85,7 @@
           </b-row>
       </b-container>
     </div>
-    <div class="pt-4 gallery0 fondo0">
+    <div class=" pt-4 gallery0">
           <b-container class="">
                     <b-row class="">
                           <b-col cols="12" lg="6" class="py-4">
@@ -127,7 +127,7 @@ export default {};
   height: 100%;
 }
 .titulo0{
-  background: linear-gradient(#2c778d,#1c375c);
+  background: linear-gradient(170deg,#2c778d 10%,#9e8d9f,	#9dae9b,#002750,#1f2747 90%);
 }
 .tarjeta0{
   background: linear-gradient(#1c375c 03%,#4ec0e1)
