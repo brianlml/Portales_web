@@ -13,9 +13,9 @@
                 </header>
                 <!--/Header-->
         <!-- Page Content -->
-        <div class="container">
+        <div class="container-fluid">
               <div class="row">
-                <b-col cols="12" lg="4">
+                <b-col cols="12" lg="4" class="pt-0 pb-4">
                   <b-img :src="require('../assets/musi7.jpg')" fluid alt="Responsive image" class="dj5"></b-img>
                 </b-col>
                 <b-col cols="12" lg="4">
@@ -64,7 +64,9 @@
                               <h2>Eventos</h2>
                               <hr>
                               <b-button v-b-modal.modal-1>Click aquí</b-button>
+                              <div>
                               <b-modal id="modal-1" title="Music hall" hide-footer>
+                              <div>
                               <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmusichallcbba%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" 
                               width="470" 
                               height="300" 
@@ -74,7 +76,9 @@
                               allowTransparency="true" 
                               allow="encrypted-media"
                               ></iframe>
+                              </div>
                               </b-modal>
+                              </div>
                           </div>
                     </div>
                     </b-col>
@@ -83,21 +87,21 @@
               <div class="fondo5 gallery5">
                       <b-container class="bv-example-row">
                                 <b-row>
-                                      <b-col cols="12" lg="6">
+                                      <b-col cols="12" lg="6" class="py-4">
                                         <b-img :src="require('../assets/music0.jpg')" fluid alt="Responsive image"></b-img>
                                       </b-col>
-                                      <b-col cols="12" lg="6">
+                                      <b-col cols="12" lg="6" class="py-4">
                                         <b-img :src="require('../assets/music5.jpg')" fluid alt="Responsive image"></b-img>
                                       </b-col>
                                 </b-row>
                                 <b-row class="mt-5">
-                                        <b-col cols="12" lg="4">
+                                        <b-col cols="12" lg="4" class="py-4">
                                           <b-img :src="require('../assets/music3.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
-                                        <b-col cols="12" lg="4">
+                                        <b-col cols="12" lg="4" class="py-4">
                                           <b-img :src="require('../assets/music4.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
-                                        <b-col cols="12" lg="4">
+                                        <b-col cols="12" lg="4" class="py-4">
                                           <b-img :src="require('../assets/music6.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
                                 </b-row>

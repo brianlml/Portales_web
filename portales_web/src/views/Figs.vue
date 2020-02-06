@@ -85,7 +85,7 @@
           </b-row>
       </b-container>
     </div>
-    <div class=" pt-4 gallery0 fondo0">
+    <div class="pt-4 gallery0 fondo0">
           <b-container class="">
                     <b-row class="">
                           <b-col cols="12" lg="6" class="py-4">
