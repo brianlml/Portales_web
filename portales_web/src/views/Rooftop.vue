@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="titulo3">
     <div>
       <!-- Header -->
-      <header class="mt-5 py-5 titulo3">
+      <header class="mt-5 py-5">
         <div class="container">
           <div class="row align-items-center">
             <div>
@@ -14,7 +14,7 @@
       </header>
       <!--/Header-->
       <!-- Page Content -->
-      <div class="tarjeta3">
+      <div class="">
         <div class="container row">
           <b-col class="col-12 col-lg-4 col-md-10">
             <b-img :src="require('../assets/rooftop_5.jpg')"  fluid alt class="dj3" />
@@ -82,7 +82,7 @@
         </div>
         <!--/row-->
       </div>
-      <div class="gallery3 fondo3">
+      <div class="gallery3">
         <b-container class="bv-example-row albun3">
           <b-row>
             <b-col cols="10" lg="4" md="4" >
@@ -115,7 +115,7 @@ export default {};
 
 <style>
 .titulo3 {
-  background: linear-gradient(#2c778d, #8092a7, #dfd46d);
+  background: linear-gradient(170deg,#2c778d, #8092a7, #f9e4b7 60%, #2c778d, #1f2747);
 }
 .tarjeta3 {
   background: linear-gradient(#dfd46d, #f9e4b7, #4ec0e1);

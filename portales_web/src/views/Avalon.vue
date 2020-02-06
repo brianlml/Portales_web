@@ -1,8 +1,8 @@
 <template>
-<div>
+<div class="titulo4">
   <div>
       <!-- Header -->
-      <header class="mt-5 py-5 titulo4">
+      <header class="mt-5 py-5">
         <div class="container h-100">
           <div class="row h-100 align-items-center">
             <div class="col-lg-12">
@@ -14,7 +14,7 @@
       </header>
       <!--/Header-->
   <!-- Page Content -->
-  <div class="tarjeta4">
+  <div class="">
     <div class="row">
       <b-col cols="12" lg="4" md="10">
         <b-img :src="require('../assets/avalon0.jpg')" fluid alt="Responsive image" class="dj4"></b-img>
@@ -99,7 +99,7 @@
         </b-col>
     </div>
   </div>
-  <div class="gallery4 fondo4">
+  <div class="gallery4">
         <b-container class="bv-example-row albun4">
           <b-row>
             <b-col cols="10" lg="6" md="5">
@@ -131,7 +131,7 @@ export default {};
 
 <style>
 .titulo4{
-  background: linear-gradient(#2c778d,#2d8daa,#a8dcf3)
+  background: linear-gradient(180deg,#2c778d,#a8dcf3,#2d8daa,	#0193bd,#1f2747)
 }
 .tarjeta4{
   background: linear-gradient(#a8dcf3,#2d8daa,#2d8daa)

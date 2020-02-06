@@ -1,7 +1,7 @@
 <template>
-<div>
+<div class="titulo6">
                 <!-- Header -->
-                <header class="bg-dark mt-5 py-5 mb-5 texto1">
+                <header class="mt-5 py-5 mb-5">
                   <div class="container h-100">
                     <div class="row h-100 align-items-center">
                       <div class="col-lg-12">
@@ -15,10 +15,10 @@
         <!-- Page Content -->
         <div class="container">
               <div class="row">
-                <b-col cols="12" lg="4">
+                <b-col cols="12" lg="4" md="12">
                   <b-img :src="require('../assets/musi7.jpg')" fluid alt="Responsive image" class="dj5"></b-img>
                 </b-col>
-                <b-col cols="12" lg="4">
+                <b-col cols="12" lg="4" md="6">
                     <div>
                           <h2>Acerca de Music Hall</h2>
                           <hr>
@@ -26,7 +26,7 @@
                           <p>Un comodo ambiente con los mejores tragos y bastante espacio para disfrutar junto a tus amigos.</p>
                     </div>
                     </b-col>
-                    <b-col cols="12" lg="4">
+                    <b-col cols="12" lg="4" md="6">
                     <div>
                         <h2>Contacto</h2>
                         <hr>
@@ -80,7 +80,7 @@
                     </b-col>
               </div><!--/row-->
         </div><!--/Page Content-->
-              <div class="fondo5 gallery5">
+              <div class="gallery5">
                       <b-container class="bv-example-row">
                                 <b-row>
                                       <b-col cols="12" lg="6">
@@ -113,8 +113,8 @@ export default {
 </script>
 
 <style>
-.texto1 {
-  background: linear-gradient(#2c778d, #4ec0e1 )
+.titulo6{
+  background: linear-gradient(160deg,	#2c778d 15%,	#d9a872,	#6a5c4c,#1c375c 90%)
 }
 .dj5{
   height: 100%;

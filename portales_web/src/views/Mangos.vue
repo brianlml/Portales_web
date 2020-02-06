@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="titulo5">
             <div>
                   <!-- Header -->
-                  <header class="py-5 titulo5">
+                  <header class="py-5">
                     <div class="container h-100">
                         <div class="row h-100 align-items-center">
                               <div class="col-lg-12">
@@ -15,7 +15,7 @@
                   <!--/Header-->
 
                 <!-- Page Content -->
-                <div class="tarjeta5">
+                <div class="">
                 <div class="container">
                         <div class="row">
                           <b-col cols="10" lg="4" md="10">
@@ -89,7 +89,7 @@
                 </div>
                 <!-- /.container -->
             </div>
-            <div class="gallery9 fondo9">
+            <div class="gallery9">
                     <b-container class="bv-example-row albun4">
                           <b-row>
                               <b-col cols="12" lg="6" md="5">
@@ -124,7 +124,7 @@ export default {
 </script>
 <style>
 .titulo5{
-  background: linear-gradient(150deg,	#2c778d 55%,#4ec0e1,#c9b359)
+  background: linear-gradient(150deg,	#2c778d 20%,#b87f39,#799658,#1f2747 80%)
 }
 .tarjeta5{
   background: linear-gradient(160deg,#2c778d 7%,#4ec0e1,#799658,#c9b359,#b87f39)
