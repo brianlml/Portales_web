@@ -15,10 +15,10 @@
                             :img-src="require('../assets/pasajentrada3.png')"
                             img-alt="Pasaje Portales"
                           >
-                          <p class="text-center">Aqui puedes bailar, cantar y lo mejor de todo divertirte</p>
+                          <p class="text-center">Un lugar para conocer, disfrutar y sobre todo pasarla bien</p>
                           </b-carousel-slide>
-                          <b-carousel-slide caption="Second Slide" :img-src="require('../assets/parqueo2.png')"></b-carousel-slide>
-                          <b-carousel-slide caption="Third Slide" :img-src="require('../assets/pasaj3.png')"></b-carousel-slide>
+                          <b-carousel-slide :img-src="require('../assets/parqueo2.png')"></b-carousel-slide>
+                          <b-carousel-slide :img-src="require('../assets/pasaj3.png')"></b-carousel-slide>
               </b-carousel>
       </div>
     <Slide/>

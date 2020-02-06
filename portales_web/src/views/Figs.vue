@@ -66,12 +66,12 @@
                                             <b-button v-b-modal.modal-1>Click aquí</b-button>
                                             <div class="">
                                               <b-modal id="modal-1" title="Figs" hide-footer>
-                                                <div class="responsive">
+                                                <div class="responsive container-fluid">
                                                   <iframe
-                                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFigsbolivia%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                                                    width="470"
+                                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFigsbolivia%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                                                    width="350"
                                                     height="300"
-                                                    style="border:none;overflow:hidden"
+                                                    style="border:none;overflow:hidden;width:100%;"
                                                     scrolling="no"
                                                     frameborder="0"
                                                     allowtransparency="true"
@@ -112,18 +112,22 @@
 </div>
 </template>
 <script>
-export default {};
-</script>
+export default {
+}
 
+</script>
 <style>
 .responsive {
-  width:100%;
-  height: 0;
-  padding-bottom: 56.25%;
   position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
 }
 .responsive iframe {
   position: absolute;
+  top:0;
+  left:0;
   width:100%;
   height: 100%;
 }

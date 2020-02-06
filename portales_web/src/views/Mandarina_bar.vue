@@ -63,9 +63,9 @@
                                                                           <b-button v-b-modal.modal-1>Click aquí</b-button>
                                                                           <div>
                                                                             <b-modal id="modal-1" title="Mandarina bar" hide-footer>
-                                                                              <div>
-                                                                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaBarCocha%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                                                                                width="470" 
+                                                                              <div class="responsive">
+                                                                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMandarinaBarCocha%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                                                                                width="350" 
                                                                                 height="300" 
                                                                                 style="border:none;overflow:hidden" 
                                                                                 scrolling="no" 
@@ -116,6 +116,21 @@ export default {
 </script>
 
 <style>
+.responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}
+
 .titulo{
   background: linear-gradient(170deg,#2c778d 10%,#9ea89f,	#ba6426,#1c375c 90%)
 }
