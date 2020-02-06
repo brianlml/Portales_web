@@ -16,7 +16,7 @@
 
                 <!-- Page Content -->
                 <div class="">
-                <div class="tarjeta5 py-5">
+                <div class="py-5">
                 <div class="container">
                         <div class="row">
                           <b-col cols="10" lg="4" md="10">
@@ -70,10 +70,10 @@
                                           <b-button v-b-modal.modal-1>Click aquí</b-button>
                                           <div>
                                           <b-modal id="modal-1" title="Mangos Bar" hide-footer>
-                                            <div>
+                                            <div class="responsive">
                                             <iframe
-                                              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                                              width="470"
+                                              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                                              width="350"
                                               height="300"
                                               style="border:none;overflow:hidden"
                                               scrolling="no"
@@ -93,7 +93,7 @@
                 </div>
                 <!-- /.container -->
             </div>
-            <div class="gallery9 fondo9">
+            <div class="gallery9">
                     <b-container class="">
                           <b-row>
                               <b-col cols="12" lg="6" md="5" class="py-4">
@@ -116,6 +116,7 @@
                           </b-row>
                     </b-container>
             </div>
+            </div>
 </div>
 </template>
 
@@ -127,6 +128,20 @@ export default {
 };
 </script>
 <style>
+.responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}
 .titulo5{
   background: linear-gradient(150deg,	#2c778d 20%,#b87f39,#799658,#1f2747 80%)
 }

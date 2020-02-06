@@ -66,9 +66,9 @@
                               <b-button v-b-modal.modal-1>Click aquí</b-button>
                               <div>
                               <b-modal id="modal-1" title="Music hall" hide-footer>
-                              <div>
-                              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmusichallcbba%2F&tabs=events&width=470&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" 
-                              width="470" 
+                              <div class="responsive">
+                              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmusichallcbba%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" 
+                              width="350" 
                               height="300" 
                               style="border:none;overflow:hidden"
                               scrolling="no" 
@@ -117,6 +117,20 @@ export default {
 </script>
 
 <style>
+.responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}
 .titulo6{
   background: linear-gradient(160deg,	#2c778d 15%,	#d9a872,	#6a5c4c,#1c375c 90%)
 }

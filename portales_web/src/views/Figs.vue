@@ -67,8 +67,8 @@
                                               <b-modal id="modal-1" title="Figs" hide-footer>
                                                 <div class="responsive container-fluid">
                                                   <iframe
-                                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFigsbolivia%2F&tabs=events&width=300&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
-                                                    width="300"
+                                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFigsbolivia%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+                                                    width="350"
                                                     height="300"
                                                     style="border:none;overflow:hidden;width:100%;"
                                                     scrolling="no"
