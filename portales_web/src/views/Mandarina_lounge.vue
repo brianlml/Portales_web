@@ -11,7 +11,7 @@
         <b-container>
             <b-row class="">
                   <b-col cols="12" lg="5" md="12">
-                      <b-img :src="require('../assets/mandar_2.jpg')" class="pt-3 djs2 w-100 mt-2" fluid></b-img>
+                      <b-img :src="require('../assets/mandar_2.jpg')" class="djs2 w-100 mt-3" fluid></b-img>
                   </b-col>
                   <b-col class="ml-auto mt-4" cols="12" lg="4" md="6">
                                 <div>
@@ -137,13 +137,6 @@ background: linear-gradient(#cc672a 20%,#2c778d,#151633)
 }
 .fondo2{
   background: linear-gradient(180deg,#151633,#2c778d,#4ec0e1,#151633)
-}
-.albun2{
-   
-    padding:60px;
-}
-.bordecito {
-  border-radius: 30px;
 }
 .gallery2{
     display:grid;

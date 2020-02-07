@@ -151,9 +151,6 @@ export default {
   width: 100%;
   border-radius: 10%;
 }
-.albun0 {
-  margin: 100px;
-}
 .djs0 {
   height: 400;
   width: 500;

@@ -86,7 +86,7 @@
                           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Favaloncbba%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
                           width="350" 
                           height="300" 
-                          style="border:none;overflow:hidden" 
+                          style="border:none;overflow:hidden;width:100%;" 
                           scrolling="no" 
                           frameborder="0" 
                           allowTransparency="true" 
@@ -101,18 +101,18 @@
         </b-col>
     </div>
   </div>
-  <div class="pt-4 gallery4">
+  <div class="pt-0 gallery4">
         <b-container class="">
           <b-row>
             <b-col cols="10" lg="6" md="5" class="py-4">
               <b-img :src="require('../assets/avalon_1.png')" fluit alt="Responsive image"></b-img>
             </b-col>
-            <b-col cols="10" lg="6" md="5" class="py-4">
+            <b-col cols="10" lg="6" md="5" class="pt-4">
               <b-img :src="require('../assets/avalon_2.png')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
 
-          <b-row class="pt-5">
+          <b-row class="pt-3">
             <b-col cols="10" lg="6" md="10" class="py-4">
               <b-img :src="require('../assets/avalon_3.png')" fluid alt="Responsive image"></b-img>
               <b-img :src="require('../assets/avalon_5.png')" fluid alt="Responsive image" class="mt-5"></b-img>

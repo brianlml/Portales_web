@@ -12,7 +12,7 @@
               <b-container>
                     <b-row class="">
                               <b-col cols="12" lg="5" md="12">
-                                  <b-img :src="require('../assets/mandabar_5.jpg')" class="pt-3 dj w-100 mt-2" fluid></b-img>
+                                  <b-img :src="require('../assets/mandabar_5.jpg')" class="dj w-100 mt-3" fluid></b-img>
                               </b-col>
                               <b-col class="ml-auto mt-4 colores" cols="12" lg="4" md="6">
                                      <!-- Page Content -->
@@ -155,9 +155,5 @@ export default {
 .gallery img{
     width:100%;
     border-radius: 10%
-}
-.albun{
-  margin: 50px;
-  padding: 50px
 }
 </style>

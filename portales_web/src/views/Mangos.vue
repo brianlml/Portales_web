@@ -74,7 +74,7 @@
                                               src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMangosTropicalBar%2F&tabs=events&width=350&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
                                               width="350"
                                               height="300"
-                                              style="border:none;overflow:hidden"
+                                              style="border:none;overflow:hidden;width:100%;"
                                               scrolling="no"
                                               frameborder="0"
                                               allowtransparency="true"
@@ -93,24 +93,24 @@
                 <!-- /.container -->
             </div>
             <div class="gallery9">
-                    <b-container class="">
+                    <b-container class="container-fluid">
                           <b-row>
                               <b-col cols="12" lg="6" md="5" class="py-4">
-                                <b-img :src="require('../assets/mangos0.jpg')" fluid alt="Responsive image" height="600px"></b-img>
+                                <b-img :src="require('../assets/mangos0.jpg')" fluid alt="Responsive image" ></b-img>
                               </b-col>
                               <b-col cols="12" lg="6" md="5" class="py-4">
-                                <b-img :src="require('../assets/mangos2.jpg')" fluid alt="Responsive image"></b-img>
-                                <b-img :src="require('../assets/mangos5.jpg')" fluid alt="Responsive image" class="mt-3"></b-img>
+                                <b-img :src="require('../assets/mangos2.jpg')" fluid alt="Responsive image" class="mb-5"></b-img>
+                                <b-img :src="require('../assets/mangos5.jpg')" fluid alt="Responsive image"></b-img>
                               </b-col>
                           </b-row>
 
-                          <b-row class="mt-5">
+                          <b-row>
                                 <b-col cols="12" lg="6" md="5" class="py-4">
-                                  <b-img :src="require('../assets/mangos8.jpg')" fluid alt="Responsive image"></b-img>
-                                  <b-img :src="require('../assets/mangos6.jpg')" fluid alt="Responsive image" class="mt-3"></b-img>
+                                  <b-img :src="require('../assets/mangos8.jpg')" fluid alt="Responsive image" class="mb-5"></b-img>
+                                  <b-img :src="require('../assets/mangos6.jpg')" fluid alt="Responsive image" ></b-img>
                                 </b-col>
                                 <b-col cols="12" lg="6" md="5" class="py-4">
-                                  <b-img :src="require('../assets/mangos4.jpg')" fluid alt="Responsive image" height="610px"></b-img>
+                                  <b-img :src="require('../assets/mangos4.jpg')" class="" fluid alt="Responsive image"></b-img>
                                 </b-col>
                           </b-row>
                     </b-container>

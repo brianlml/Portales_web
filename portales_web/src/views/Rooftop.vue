@@ -14,7 +14,7 @@
       <!--/Header-->
       <!-- Page Content -->
       <div class="">
-        <div class="pl-5 container-fluid row">
+        <div class="row container-fluid">
           <b-col class="col-12 col-lg-4 col-md-10">
             <b-img :src="require('../assets/rooftop_5.jpg')"  fluid alt class="dj3" />
           </b-col>
@@ -98,12 +98,12 @@
               <b-img :src="require('../assets/rooftop_3.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
-          <b-row class="pb-5">
-            <b-col cols="10" lg="6" md="5">
-              <b-img :src="require('../assets/rooftop4.jpg')" fluid alt="Responsive image" class="mt-5" height="420px"></b-img>
+          <b-row class="pb-4">
+            <b-col cols="10" lg="6" md="5" class="pt-4">
+              <b-img :src="require('../assets/rooftop4.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
-            <b-col cols="10" lg="6" md="5">
-              <b-img :src="require('../assets/rooftop9.jpg')" fluid alt="Responsive image" class="mt-5" />
+            <b-col cols="10" lg="6" md="5" class="pt-4">
+              <b-img :src="require('../assets/rooftop9.jpg')" fluid alt="Responsive image"></b-img>
             </b-col>
           </b-row>
         </b-container>
@@ -144,10 +144,6 @@ export default {};
   height: 100%;
   width: 100%;
   border-radius: 10%;
-}
-.albun3 {
-  margin: auto;
-  padding: 05%;
 }
 .gallery3 {
   display: grid;

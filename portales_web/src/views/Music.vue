@@ -93,14 +93,14 @@
                                         <b-img :src="require('../assets/music5.jpg')" fluid alt="Responsive image"></b-img>
                                       </b-col>
                                 </b-row>
-                                <b-row class="mt-5">
-                                        <b-col cols="12" lg="4" class="py-4">
+                                <b-row class="pt-3">
+                                        <b-col cols="12" lg="4" class="pb-5">
                                           <b-img :src="require('../assets/music3.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
-                                        <b-col cols="12" lg="4" class="py-4">
+                                        <b-col cols="12" lg="4" class="pb-5">
                                           <b-img :src="require('../assets/music4.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
-                                        <b-col cols="12" lg="4" class="py-4">
+                                        <b-col cols="12" lg="4" class="pb-5">
                                           <b-img :src="require('../assets/music6.jpg')" fluid alt="Responsive image"></b-img>
                                         </b-col>
                                 </b-row>
@@ -149,9 +149,5 @@ export default {
 .gallery5 img{
   width: 100%;
   border-radius: 10%
-}
-.albun5{
-  margin:9%;
-  padding:9%;
 }
 </style>
